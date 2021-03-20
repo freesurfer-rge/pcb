@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:LM555xN U701
+U 1 1 6052B896
+P 5000 3750
+F 0 "U701" H 5000 4331 50  0000 C CNN
+F 1 "LM555xN" H 5000 4240 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5650 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5850 3350 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0702
+U 1 1 6052CDC2
+P 5000 2100
+F 0 "#PWR0702" H 5000 1950 50  0001 C CNN
+F 1 "+5V" H 5015 2273 50  0000 C CNN
+F 2 "" H 5000 2100 50  0001 C CNN
+F 3 "" H 5000 2100 50  0001 C CNN
+	1    5000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0703
+U 1 1 6052D110
+P 5000 4900
+F 0 "#PWR0703" H 5000 4650 50  0001 C CNN
+F 1 "GND" H 5005 4727 50  0000 C CNN
+F 2 "" H 5000 4900 50  0001 C CNN
+F 3 "" H 5000 4900 50  0001 C CNN
+	1    5000 4900
+	1    0    0    -1  
+$EndComp
+Text Label 6000 3750 0    50   ~ 0
+DIVIDER
+Text Label 6000 3950 0    50   ~ 0
+TRTHR
+Wire Wire Line
+	5500 3750 6000 3750
+Wire Wire Line
+	5500 3950 6000 3950
+Wire Wire Line
+	5000 3350 5000 2550
+Wire Wire Line
+	5000 4150 5000 4800
+$Comp
+L Device:R R702
+U 1 1 6052E632
+P 2400 3500
+F 0 "R702" H 2470 3546 50  0000 L CNN
+F 1 "3k3" H 2470 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2330 3500 50  0001 C CNN
+F 3 "~" H 2400 3500 50  0001 C CNN
+	1    2400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C701
+U 1 1 6052EFCF
+P 2400 4250
+F 0 "C701" H 2518 4296 50  0000 L CNN
+F 1 "1u" H 2518 4205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 2438 4100 50  0001 C CNN
+F 3 "~" H 2400 4250 50  0001 C CNN
+	1    2400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2200 3150 2200
+Connection ~ 5000 2200
+Wire Wire Line
+	5000 2200 5000 2100
+Wire Wire Line
+	2400 2800 2400 3000
+Wire Wire Line
+	2400 3650 2400 3900
+Wire Wire Line
+	2400 4400 2400 4800
+Wire Wire Line
+	2400 4800 4200 4800
+Connection ~ 5000 4800
+Wire Wire Line
+	5000 4800 5000 4900
+$Comp
+L Device:C C702
+U 1 1 605308C0
+P 3150 2500
+F 0 "C702" H 3035 2454 50  0000 R CNN
+F 1 "0.1u" H 3035 2545 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3188 2350 50  0001 C CNN
+F 3 "~" H 3150 2500 50  0001 C CNN
+	1    3150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0701
+U 1 1 60530D44
+P 3150 2800
+F 0 "#PWR0701" H 3150 2550 50  0001 C CNN
+F 1 "GND" H 3155 2627 50  0000 C CNN
+F 2 "" H 3150 2800 50  0001 C CNN
+F 3 "" H 3150 2800 50  0001 C CNN
+	1    3150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2800 3150 2650
+Wire Wire Line
+	3150 2350 3150 2200
+Connection ~ 3150 2200
+Wire Wire Line
+	3150 2200 4000 2200
+Wire Wire Line
+	4500 3950 4000 3950
+Wire Wire Line
+	4000 3950 4000 2200
+Connection ~ 4000 2200
+Wire Wire Line
+	4000 2200 5000 2200
+Text Label 3700 3550 2    50   ~ 0
+TRTHR
+Wire Wire Line
+	3700 3550 4500 3550
+Text Label 2050 3000 2    50   ~ 0
+DIVIDER
+Wire Wire Line
+	2050 3000 2400 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 2400 3350
+Text Label 2050 3900 2    50   ~ 0
+TRTHR
+Wire Wire Line
+	2400 3900 2050 3900
+Connection ~ 2400 3900
+Wire Wire Line
+	2400 3900 2400 4100
+$Comp
+L Device:C C703
+U 1 1 60532794
+P 4200 4400
+F 0 "C703" H 4315 4446 50  0000 L CNN
+F 1 "0.01u" H 4315 4355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 4238 4250 50  0001 C CNN
+F 3 "~" H 4200 4400 50  0001 C CNN
+	1    4200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3750 4200 3750
+Wire Wire Line
+	4200 3750 4200 4250
+Wire Wire Line
+	4200 4550 4200 4800
+Connection ~ 4200 4800
+Wire Wire Line
+	4200 4800 5000 4800
+Wire Wire Line
+	5500 3550 5700 3550
+$Comp
+L Device:R R703
+U 1 1 6053404F
+P 5700 3100
+F 0 "R703" H 5770 3146 50  0000 L CNN
+F 1 "1k" H 5770 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 3100 50  0001 C CNN
+F 3 "~" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2950 5700 2550
+Wire Wire Line
+	5700 2550 5000 2550
+Connection ~ 5000 2550
+Wire Wire Line
+	5000 2550 5000 2200
+Wire Wire Line
+	5700 3250 5700 3550
+Connection ~ 5700 3550
+Wire Wire Line
+	5700 3550 6450 3550
+Text HLabel 6450 3550 2    50   Output ~ 0
+CLK
+Wire Wire Line
+	2400 2500 2400 2200
+$Comp
+L Device:R R701
+U 1 1 6052DBBE
+P 2400 2650
+F 0 "R701" H 2470 2696 50  0000 L CNN
+F 1 "3k3" H 2470 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2330 2650 50  0001 C CNN
+F 3 "~" H 2400 2650 50  0001 C CNN
+	1    2400 2650
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

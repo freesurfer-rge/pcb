@@ -1,0 +1,540 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 606265D0
+P 3050 1900
+AR Path="/605CED6A/606265D0" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265D0" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265D0" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265D0" Ref="D601"  Part="1" 
+F 0 "D601" V 3089 1782 50  0000 R CNN
+F 1 "LED" V 2998 1782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 1900 50  0001 C CNN
+F 3 "~" H 3050 1900 50  0001 C CNN
+	1    3050 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606265D6
+P 3050 2400
+AR Path="/605CED6A/606265D6" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265D6" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265D6" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265D6" Ref="D602"  Part="1" 
+F 0 "D602" V 3089 2282 50  0000 R CNN
+F 1 "LED" V 2998 2282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 2400 50  0001 C CNN
+F 3 "~" H 3050 2400 50  0001 C CNN
+	1    3050 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606265DC
+P 3050 2900
+AR Path="/605CED6A/606265DC" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265DC" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265DC" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265DC" Ref="D603"  Part="1" 
+F 0 "D603" V 3089 2782 50  0000 R CNN
+F 1 "LED" V 2998 2782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 2900 50  0001 C CNN
+F 3 "~" H 3050 2900 50  0001 C CNN
+	1    3050 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606265E2
+P 3050 3400
+AR Path="/605CED6A/606265E2" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265E2" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265E2" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265E2" Ref="D604"  Part="1" 
+F 0 "D604" V 3089 3282 50  0000 R CNN
+F 1 "LED" V 2998 3282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 3400 50  0001 C CNN
+F 3 "~" H 3050 3400 50  0001 C CNN
+	1    3050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606265E8
+P 3050 3900
+AR Path="/605CED6A/606265E8" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265E8" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265E8" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265E8" Ref="D605"  Part="1" 
+F 0 "D605" V 3089 3782 50  0000 R CNN
+F 1 "LED" V 2998 3782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 3900 50  0001 C CNN
+F 3 "~" H 3050 3900 50  0001 C CNN
+	1    3050 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606265EE
+P 3050 4400
+AR Path="/605CED6A/606265EE" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265EE" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265EE" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265EE" Ref="D606"  Part="1" 
+F 0 "D606" V 3089 4282 50  0000 R CNN
+F 1 "LED" V 2998 4282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 4400 50  0001 C CNN
+F 3 "~" H 3050 4400 50  0001 C CNN
+	1    3050 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606265F4
+P 3050 4950
+AR Path="/605CED6A/606265F4" Ref="D?"  Part="1" 
+AR Path="/605E7278/606265F4" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606265F4" Ref="D?"  Part="1" 
+AR Path="/60624A40/606265F4" Ref="D607"  Part="1" 
+F 0 "D607" V 3089 4832 50  0000 R CNN
+F 1 "LED" V 2998 4832 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 4950 50  0001 C CNN
+F 3 "~" H 3050 4950 50  0001 C CNN
+	1    3050 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60627709
+P 3500 1900
+AR Path="/605CED6A/60627709" Ref="D?"  Part="1" 
+AR Path="/605E7278/60627709" Ref="D?"  Part="1" 
+AR Path="/60609EE5/60627709" Ref="D?"  Part="1" 
+AR Path="/60624A40/60627709" Ref="D608"  Part="1" 
+F 0 "D608" V 3539 1782 50  0000 R CNN
+F 1 "LED" V 3448 1782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3500 1900 50  0001 C CNN
+F 3 "~" H 3500 1900 50  0001 C CNN
+	1    3500 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606282C1
+P 3900 1900
+AR Path="/605CED6A/606282C1" Ref="D?"  Part="1" 
+AR Path="/605E7278/606282C1" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606282C1" Ref="D?"  Part="1" 
+AR Path="/60624A40/606282C1" Ref="D610"  Part="1" 
+F 0 "D610" V 3939 1782 50  0000 R CNN
+F 1 "LED" V 3848 1782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3900 1900 50  0001 C CNN
+F 3 "~" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606282C7
+P 4350 1900
+AR Path="/605CED6A/606282C7" Ref="D?"  Part="1" 
+AR Path="/605E7278/606282C7" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606282C7" Ref="D?"  Part="1" 
+AR Path="/60624A40/606282C7" Ref="D612"  Part="1" 
+F 0 "D612" V 4389 1782 50  0000 R CNN
+F 1 "LED" V 4298 1782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4350 1900 50  0001 C CNN
+F 3 "~" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60630309
+P 3500 4950
+AR Path="/605CED6A/60630309" Ref="D?"  Part="1" 
+AR Path="/605E7278/60630309" Ref="D?"  Part="1" 
+AR Path="/60609EE5/60630309" Ref="D?"  Part="1" 
+AR Path="/60624A40/60630309" Ref="D609"  Part="1" 
+F 0 "D609" V 3539 4832 50  0000 R CNN
+F 1 "LED" V 3448 4832 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3500 4950 50  0001 C CNN
+F 3 "~" H 3500 4950 50  0001 C CNN
+	1    3500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6063030F
+P 3900 4950
+AR Path="/605CED6A/6063030F" Ref="D?"  Part="1" 
+AR Path="/605E7278/6063030F" Ref="D?"  Part="1" 
+AR Path="/60609EE5/6063030F" Ref="D?"  Part="1" 
+AR Path="/60624A40/6063030F" Ref="D611"  Part="1" 
+F 0 "D611" V 3939 4832 50  0000 R CNN
+F 1 "LED" V 3848 4832 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3900 4950 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60630315
+P 4350 4950
+AR Path="/605CED6A/60630315" Ref="D?"  Part="1" 
+AR Path="/605E7278/60630315" Ref="D?"  Part="1" 
+AR Path="/60609EE5/60630315" Ref="D?"  Part="1" 
+AR Path="/60624A40/60630315" Ref="D613"  Part="1" 
+F 0 "D613" V 4389 4832 50  0000 R CNN
+F 1 "LED" V 4298 4832 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4350 4950 50  0001 C CNN
+F 3 "~" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606362E4
+P 4800 2400
+AR Path="/605CED6A/606362E4" Ref="D?"  Part="1" 
+AR Path="/605E7278/606362E4" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606362E4" Ref="D?"  Part="1" 
+AR Path="/60624A40/606362E4" Ref="D614"  Part="1" 
+F 0 "D614" V 4839 2282 50  0000 R CNN
+F 1 "LED" V 4748 2282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 2400 50  0001 C CNN
+F 3 "~" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606362EA
+P 4800 2900
+AR Path="/605CED6A/606362EA" Ref="D?"  Part="1" 
+AR Path="/605E7278/606362EA" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606362EA" Ref="D?"  Part="1" 
+AR Path="/60624A40/606362EA" Ref="D615"  Part="1" 
+F 0 "D615" V 4839 2782 50  0000 R CNN
+F 1 "LED" V 4748 2782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 2900 50  0001 C CNN
+F 3 "~" H 4800 2900 50  0001 C CNN
+	1    4800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606362F0
+P 4800 3400
+AR Path="/605CED6A/606362F0" Ref="D?"  Part="1" 
+AR Path="/605E7278/606362F0" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606362F0" Ref="D?"  Part="1" 
+AR Path="/60624A40/606362F0" Ref="D616"  Part="1" 
+F 0 "D616" V 4839 3282 50  0000 R CNN
+F 1 "LED" V 4748 3282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 3400 50  0001 C CNN
+F 3 "~" H 4800 3400 50  0001 C CNN
+	1    4800 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606362F6
+P 4800 3900
+AR Path="/605CED6A/606362F6" Ref="D?"  Part="1" 
+AR Path="/605E7278/606362F6" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606362F6" Ref="D?"  Part="1" 
+AR Path="/60624A40/606362F6" Ref="D617"  Part="1" 
+F 0 "D617" V 4839 3782 50  0000 R CNN
+F 1 "LED" V 4748 3782 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 3900 50  0001 C CNN
+F 3 "~" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 606362FC
+P 4800 4400
+AR Path="/605CED6A/606362FC" Ref="D?"  Part="1" 
+AR Path="/605E7278/606362FC" Ref="D?"  Part="1" 
+AR Path="/60609EE5/606362FC" Ref="D?"  Part="1" 
+AR Path="/60624A40/606362FC" Ref="D618"  Part="1" 
+F 0 "D618" V 4839 4282 50  0000 R CNN
+F 1 "LED" V 4748 4282 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 4400 50  0001 C CNN
+F 3 "~" H 4800 4400 50  0001 C CNN
+	1    4800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DF73F
+P 5400 2050
+AR Path="/605CED6A/605DF73F" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF73F" Ref="R601"  Part="1" 
+F 0 "R601" V 5193 2050 50  0000 C CNN
+F 1 "R" V 5284 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 2050 50  0001 C CNN
+F 3 "~" H 5400 2050 50  0001 C CNN
+	1    5400 2050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DF745
+P 5400 2550
+AR Path="/605CED6A/605DF745" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF745" Ref="R602"  Part="1" 
+F 0 "R602" V 5193 2550 50  0000 C CNN
+F 1 "R" V 5284 2550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 2550 50  0001 C CNN
+F 3 "~" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DF74B
+P 5400 3550
+AR Path="/605CED6A/605DF74B" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF74B" Ref="R604"  Part="1" 
+F 0 "R604" V 5193 3550 50  0000 C CNN
+F 1 "R" V 5284 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 3550 50  0001 C CNN
+F 3 "~" H 5400 3550 50  0001 C CNN
+	1    5400 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DF751
+P 5400 4050
+AR Path="/605CED6A/605DF751" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF751" Ref="R605"  Part="1" 
+F 0 "R605" V 5193 4050 50  0000 C CNN
+F 1 "R" V 5284 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 4050 50  0001 C CNN
+F 3 "~" H 5400 4050 50  0001 C CNN
+	1    5400 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DF757
+P 5400 4550
+AR Path="/605CED6A/605DF757" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF757" Ref="R606"  Part="1" 
+F 0 "R606" V 5193 4550 50  0000 C CNN
+F 1 "R" V 5284 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 4550 50  0001 C CNN
+F 3 "~" H 5400 4550 50  0001 C CNN
+	1    5400 4550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DF75D
+P 5400 5100
+AR Path="/605CED6A/605DF75D" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF75D" Ref="R607"  Part="1" 
+F 0 "R607" V 5607 5100 50  0000 C CNN
+F 1 "R" V 5516 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 5100 50  0001 C CNN
+F 3 "~" H 5400 5100 50  0001 C CNN
+	1    5400 5100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4800 4550 5250 4550
+Wire Wire Line
+	4800 4050 5250 4050
+Wire Wire Line
+	4800 3550 5250 3550
+Wire Wire Line
+	4800 3050 5250 3050
+Wire Wire Line
+	4800 2550 5250 2550
+Text HLabel 6200 3250 2    50   Input ~ 0
+DLED
+Wire Wire Line
+	6200 3250 5950 3250
+Wire Wire Line
+	5950 3250 5950 3050
+Wire Wire Line
+	5950 2050 5550 2050
+Connection ~ 5950 3250
+Connection ~ 5950 3050
+Wire Wire Line
+	5950 3050 5950 2550
+Wire Wire Line
+	5550 2550 5950 2550
+Connection ~ 5950 2550
+Wire Wire Line
+	5950 2550 5950 2050
+Wire Wire Line
+	5550 3550 5950 3550
+Connection ~ 5950 3550
+Wire Wire Line
+	5950 3550 5950 3250
+Wire Wire Line
+	5550 4050 5950 4050
+Connection ~ 5950 4050
+Wire Wire Line
+	5950 4050 5950 3550
+Wire Wire Line
+	5550 4550 5950 4550
+Connection ~ 5950 4550
+Wire Wire Line
+	5950 4550 5950 4050
+Wire Wire Line
+	5550 3050 5950 3050
+$Comp
+L Device:R R?
+U 1 1 605DF780
+P 5400 3050
+AR Path="/605CED6A/605DF780" Ref="R?"  Part="1" 
+AR Path="/60624A40/605DF780" Ref="R603"  Part="1" 
+F 0 "R603" V 5193 3050 50  0000 C CNN
+F 1 "R" V 5284 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5330 3050 50  0001 C CNN
+F 3 "~" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2050 3500 2050
+Connection ~ 3500 2050
+Wire Wire Line
+	3500 2050 3900 2050
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 4350 2050
+Connection ~ 4350 2050
+Wire Wire Line
+	4350 2050 5250 2050
+Wire Wire Line
+	4800 2550 3050 2550
+Connection ~ 4800 2550
+Wire Wire Line
+	4800 3050 3050 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	4800 3550 3050 3550
+Connection ~ 4800 3550
+Wire Wire Line
+	4800 4050 3050 4050
+Connection ~ 4800 4050
+Wire Wire Line
+	4800 4550 3050 4550
+Connection ~ 4800 4550
+Wire Wire Line
+	3050 5100 3500 5100
+Connection ~ 3500 5100
+Wire Wire Line
+	3500 5100 3900 5100
+Connection ~ 3900 5100
+Wire Wire Line
+	3900 5100 4350 5100
+Connection ~ 4350 5100
+Wire Wire Line
+	4350 5100 5250 5100
+Wire Wire Line
+	5550 5100 5950 5100
+Wire Wire Line
+	5950 4550 5950 5100
+$Comp
+L power:+5V #PWR0601
+U 1 1 605E7A72
+P 2150 1350
+F 0 "#PWR0601" H 2150 1200 50  0001 C CNN
+F 1 "+5V" H 2165 1523 50  0000 C CNN
+F 2 "" H 2150 1350 50  0001 C CNN
+F 3 "" H 2150 1350 50  0001 C CNN
+	1    2150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1750 3900 1750
+Wire Wire Line
+	2150 1750 2150 1350
+Connection ~ 3050 1750
+Wire Wire Line
+	3050 1750 2150 1750
+Connection ~ 3500 1750
+Wire Wire Line
+	3500 1750 3050 1750
+Connection ~ 3900 1750
+Wire Wire Line
+	3900 1750 3500 1750
+Wire Wire Line
+	4800 2250 3050 2250
+Wire Wire Line
+	2150 2250 2150 1750
+Connection ~ 3050 2250
+Wire Wire Line
+	3050 2250 2150 2250
+Connection ~ 2150 1750
+Wire Wire Line
+	4800 2750 3050 2750
+Wire Wire Line
+	2150 2750 2150 2250
+Connection ~ 3050 2750
+Wire Wire Line
+	3050 2750 2150 2750
+Connection ~ 2150 2250
+Wire Wire Line
+	4800 3250 3050 3250
+Wire Wire Line
+	2150 3250 2150 2750
+Connection ~ 3050 3250
+Wire Wire Line
+	3050 3250 2150 3250
+Connection ~ 2150 2750
+Wire Wire Line
+	4800 3750 3050 3750
+Wire Wire Line
+	2150 3750 2150 3250
+Connection ~ 3050 3750
+Wire Wire Line
+	3050 3750 2150 3750
+Connection ~ 2150 3250
+Wire Wire Line
+	4800 4250 3050 4250
+Wire Wire Line
+	2150 4250 2150 3750
+Connection ~ 3050 4250
+Wire Wire Line
+	3050 4250 2150 4250
+Connection ~ 2150 3750
+Wire Wire Line
+	4350 4800 3900 4800
+Wire Wire Line
+	2150 4800 2150 4250
+Connection ~ 3050 4800
+Wire Wire Line
+	3050 4800 2150 4800
+Connection ~ 3500 4800
+Wire Wire Line
+	3500 4800 3050 4800
+Connection ~ 3900 4800
+Wire Wire Line
+	3900 4800 3500 4800
+Connection ~ 2150 4250
+$EndSCHEMATC

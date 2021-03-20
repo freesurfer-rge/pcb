@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:LM555xN U?
+U 1 1 6053744E
+P 5850 3800
+AR Path="/6052B5F3/6053744E" Ref="U?"  Part="1" 
+AR Path="/605356D7/6053744E" Ref="U801"  Part="1" 
+F 0 "U801" H 5850 4381 50  0000 C CNN
+F 1 "LM555xN" H 5850 4290 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6500 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 6700 3400 50  0001 C CNN
+	1    5850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60537454
+P 5850 2150
+AR Path="/6052B5F3/60537454" Ref="#PWR?"  Part="1" 
+AR Path="/605356D7/60537454" Ref="#PWR0802"  Part="1" 
+F 0 "#PWR0802" H 5850 2000 50  0001 C CNN
+F 1 "+5V" H 5865 2323 50  0000 C CNN
+F 2 "" H 5850 2150 50  0001 C CNN
+F 3 "" H 5850 2150 50  0001 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6053745A
+P 5850 4950
+AR Path="/6052B5F3/6053745A" Ref="#PWR?"  Part="1" 
+AR Path="/605356D7/6053745A" Ref="#PWR0803"  Part="1" 
+F 0 "#PWR0803" H 5850 4700 50  0001 C CNN
+F 1 "GND" H 5855 4777 50  0000 C CNN
+F 2 "" H 5850 4950 50  0001 C CNN
+F 3 "" H 5850 4950 50  0001 C CNN
+	1    5850 4950
+	1    0    0    -1  
+$EndComp
+Text Label 6850 3800 0    50   ~ 0
+DIVIDER
+Text Label 6850 4000 0    50   ~ 0
+TRTHR
+Wire Wire Line
+	6350 3800 6850 3800
+Wire Wire Line
+	6350 4000 6850 4000
+Wire Wire Line
+	5850 3400 5850 2600
+Wire Wire Line
+	5850 4200 5850 4850
+$Comp
+L Device:R R?
+U 1 1 60537466
+P 3250 2700
+AR Path="/6052B5F3/60537466" Ref="R?"  Part="1" 
+AR Path="/605356D7/60537466" Ref="R801"  Part="1" 
+F 0 "R801" H 3320 2746 50  0000 L CNN
+F 1 "10k" H 3320 2655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 2700 50  0001 C CNN
+F 3 "~" H 3250 2700 50  0001 C CNN
+	1    3250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6053746C
+P 3250 3550
+AR Path="/6052B5F3/6053746C" Ref="R?"  Part="1" 
+AR Path="/605356D7/6053746C" Ref="R802"  Part="1" 
+F 0 "R802" H 3320 3596 50  0000 L CNN
+F 1 "10k" H 3320 3505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 3550 50  0001 C CNN
+F 3 "~" H 3250 3550 50  0001 C CNN
+	1    3250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60537472
+P 3250 4300
+AR Path="/6052B5F3/60537472" Ref="C?"  Part="1" 
+AR Path="/605356D7/60537472" Ref="C801"  Part="1" 
+F 0 "C801" H 3368 4346 50  0000 L CNN
+F 1 "10u" H 3368 4255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 3288 4150 50  0001 C CNN
+F 3 "~" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2550 3250 2250
+Wire Wire Line
+	3250 2250 4000 2250
+Connection ~ 5850 2250
+Wire Wire Line
+	5850 2250 5850 2150
+Wire Wire Line
+	3250 2850 3250 3050
+Wire Wire Line
+	3250 3700 3250 3950
+Wire Wire Line
+	3250 4450 3250 4850
+Wire Wire Line
+	3250 4850 5050 4850
+Connection ~ 5850 4850
+Wire Wire Line
+	5850 4850 5850 4950
+$Comp
+L Device:C C?
+U 1 1 60537482
+P 4000 2550
+AR Path="/6052B5F3/60537482" Ref="C?"  Part="1" 
+AR Path="/605356D7/60537482" Ref="C802"  Part="1" 
+F 0 "C802" H 3885 2504 50  0000 R CNN
+F 1 "0.1u" H 3885 2595 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4038 2400 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60537488
+P 4000 2850
+AR Path="/6052B5F3/60537488" Ref="#PWR?"  Part="1" 
+AR Path="/605356D7/60537488" Ref="#PWR0801"  Part="1" 
+F 0 "#PWR0801" H 4000 2600 50  0001 C CNN
+F 1 "GND" H 4005 2677 50  0000 C CNN
+F 2 "" H 4000 2850 50  0001 C CNN
+F 3 "" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2850 4000 2700
+Wire Wire Line
+	4000 2400 4000 2250
+Connection ~ 4000 2250
+Wire Wire Line
+	4000 2250 4850 2250
+Wire Wire Line
+	5350 4000 4850 4000
+Wire Wire Line
+	4850 4000 4850 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	4850 2250 5850 2250
+Text Label 4550 3600 2    50   ~ 0
+TRTHR
+Text Label 2900 3050 2    50   ~ 0
+DIVIDER
+Wire Wire Line
+	2900 3050 3250 3050
+Connection ~ 3250 3050
+Wire Wire Line
+	3250 3050 3250 3400
+Text Label 2900 3950 2    50   ~ 0
+TRTHR
+Wire Wire Line
+	3250 3950 2900 3950
+Connection ~ 3250 3950
+Wire Wire Line
+	3250 3950 3250 4150
+$Comp
+L Device:C C?
+U 1 1 605374A0
+P 5050 4450
+AR Path="/6052B5F3/605374A0" Ref="C?"  Part="1" 
+AR Path="/605356D7/605374A0" Ref="C803"  Part="1" 
+F 0 "C803" H 5165 4496 50  0000 L CNN
+F 1 "0.01u" H 5165 4405 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5088 4300 50  0001 C CNN
+F 3 "~" H 5050 4450 50  0001 C CNN
+	1    5050 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3800 5050 3800
+Wire Wire Line
+	5050 3800 5050 4300
+Wire Wire Line
+	5050 4600 5050 4850
+Connection ~ 5050 4850
+Wire Wire Line
+	5050 4850 5850 4850
+Wire Wire Line
+	6350 3600 6550 3600
+$Comp
+L Device:R R?
+U 1 1 605374AD
+P 6550 3150
+AR Path="/6052B5F3/605374AD" Ref="R?"  Part="1" 
+AR Path="/605356D7/605374AD" Ref="R803"  Part="1" 
+F 0 "R803" H 6620 3196 50  0000 L CNN
+F 1 "1k" H 6620 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6480 3150 50  0001 C CNN
+F 3 "~" H 6550 3150 50  0001 C CNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3000 6550 2600
+Wire Wire Line
+	6550 2600 5850 2600
+Connection ~ 5850 2600
+Wire Wire Line
+	5850 2600 5850 2250
+Wire Wire Line
+	6550 3300 6550 3600
+Connection ~ 6550 3600
+Wire Wire Line
+	6550 3600 7300 3600
+Text HLabel 7300 3600 2    50   Output ~ 0
+CLK
+Wire Wire Line
+	4550 3600 5350 3600
+$EndSCHEMATC
