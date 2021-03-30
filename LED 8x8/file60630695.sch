@@ -134,11 +134,11 @@ Wire Wire Line
 	2100 2300 2100 2000
 Connection ~ 2100 2000
 Text HLabel 3600 2700 2    50   Output ~ 0
-Addr0
+Addr2
 Text HLabel 3600 2800 2    50   Output ~ 0
 Addr1
 Text HLabel 3600 2900 2    50   Output ~ 0
-Addr2
+Addr0
 Wire Wire Line
 	3050 2700 3600 2700
 Wire Wire Line
