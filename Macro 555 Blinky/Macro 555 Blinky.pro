@@ -1,4 +1,4 @@
-update=Saturday, 17 April 2021 at 18:15:36
+update=Saturday, 17 April 2021 at 20:49:49
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=LFSR Logo.net
+LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -30,10 +30,12 @@ MinMicroViaDrill=0
 MinHoleToHole=0.25
 TrackWidth1=0.127
 TrackWidth2=0.127
-TrackWidth3=0.254
-TrackWidth4=0.381
-TrackWidth5=0.635
-TrackWidth6=1.27
+TrackWidth3=0.15
+TrackWidth4=0.2
+TrackWidth5=0.254
+TrackWidth6=0.4
+TrackWidth7=0.508
+TrackWidth8=0.6
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6
@@ -64,7 +66,7 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
-SolderMaskMinWidth=0.12
+SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
@@ -245,13 +247,3 @@ uViaDrill=0.3302
 dPairWidth=0.1524
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
