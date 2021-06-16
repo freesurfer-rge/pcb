@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -16,12 +16,102 @@ $EndDescr
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 60C994E1
-P 1350 1550
-F 0 "J1" H 1458 1731 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1458 1640 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1350 1550 50  0001 C CNN
-F 3 "~" H 1350 1550 50  0001 C CNN
-	1    1350 1550
+P 1100 1500
+F 0 "J1" H 1208 1681 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1208 1590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 1500 50  0001 C CNN
+F 3 "~" H 1100 1500 50  0001 C CNN
+	1    1100 1500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 60C9A1C8
+P 2550 1500
+F 0 "U?" H 2550 1742 50  0000 C CNN
+F 1 "AMS1117-5.0" H 2550 1651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2550 1700 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2650 1250 50  0001 C CNN
+F 4 "C6187" H 2550 1500 50  0001 C CNN "LCSC"
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1500 1700 1500
+$Comp
+L power:GND #PWR?
+U 1 1 60C9BE86
+P 2550 2000
+F 0 "#PWR?" H 2550 1750 50  0001 C CNN
+F 1 "GND" H 2555 1827 50  0000 C CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1800 2550 1900
+Wire Wire Line
+	1300 1600 1700 1600
+Wire Wire Line
+	2050 1600 2050 1900
+Wire Wire Line
+	2050 1900 2550 1900
+Connection ~ 2550 1900
+Wire Wire Line
+	2550 1900 2550 2000
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60C951D2
+P 1700 1500
+F 0 "#FLG?" H 1700 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 1673 50  0000 C CNN
+F 2 "" H 1700 1500 50  0001 C CNN
+F 3 "~" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 2250 1500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60C957A4
+P 1700 1600
+F 0 "#FLG?" H 1700 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 1773 50  0000 C CNN
+F 2 "" H 1700 1600 50  0001 C CNN
+F 3 "~" H 1700 1600 50  0001 C CNN
+	1    1700 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 2050 1600
+$Comp
+L power:+5V #PWR?
+U 1 1 60C95FD9
+P 3400 1500
+F 0 "#PWR?" H 3400 1350 50  0001 C CNN
+F 1 "+5V" V 3415 1628 50  0000 L CNN
+F 2 "" H 3400 1500 50  0001 C CNN
+F 3 "" H 3400 1500 50  0001 C CNN
+	1    3400 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 1500 3400 1500
+$Sheet
+S 2300 4750 900  700 
+U 60C9CD02
+F0 "Display Clock" 50
+F1 "file60C9CD01.sch" 50
+F2 "CLK" O R 3200 5050 50 
+$EndSheet
+$Sheet
+S 2350 3550 850  750 
+U 60CA43D5
+F0 "Register Clock" 50
+F1 "file60CA43D4.sch" 50
+$EndSheet
 $EndSCHEMATC
