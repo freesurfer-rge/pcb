@@ -182,45 +182,45 @@ Connection ~ 2900 2100
 $Comp
 L 74xx:74HC86 U404
 U 1 1 60CCCFC9
-P 2500 5000
-F 0 "U404" H 2500 5325 50  0000 C CNN
-F 1 "74HC86" H 2500 5234 50  0000 C CNN
-F 2 "" H 2500 5000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 2500 5000 50  0001 C CNN
-	1    2500 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC86 U404
-U 2 1 60CCEC7D
-P 2500 6000
-F 0 "U404" H 2500 6325 50  0000 C CNN
-F 1 "74HC86" H 2500 6234 50  0000 C CNN
-F 2 "" H 2500 6000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 2500 6000 50  0001 C CNN
-	2    2500 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC86 U404
-U 3 1 60CD1561
 P 4300 5500
 F 0 "U404" H 4300 5825 50  0000 C CNN
 F 1 "74HC86" H 4300 5734 50  0000 C CNN
 F 2 "" H 4300 5500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 4300 5500 50  0001 C CNN
-	3    4300 5500
-	1    0    0    -1  
+	1    4300 5500
+	1    0    0    1   
 $EndComp
 $Comp
 L 74xx:74HC86 U404
-U 4 1 60CD320B
+U 2 1 60CCEC7D
 P 1350 7250
 F 0 "U404" H 1350 7575 50  0000 C CNN
 F 1 "74HC86" H 1350 7484 50  0000 C CNN
 F 2 "" H 1350 7250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 1350 7250 50  0001 C CNN
-	4    1350 7250
+	2    1350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U404
+U 3 1 60CD1561
+P 2500 6000
+F 0 "U404" H 2500 6325 50  0000 C CNN
+F 1 "74HC86" H 2500 6234 50  0000 C CNN
+F 2 "" H 2500 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 2500 6000 50  0001 C CNN
+	3    2500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U404
+U 4 1 60CD320B
+P 2500 5000
+F 0 "U404" H 2500 5325 50  0000 C CNN
+F 1 "74HC86" H 2500 5234 50  0000 C CNN
+F 2 "" H 2500 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 2500 5000 50  0001 C CNN
+	4    2500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -238,34 +238,34 @@ $EndComp
 $Comp
 L 74xx:74HC04 U405
 U 1 1 60CD8C4F
-P 3200 5000
-F 0 "U405" H 3200 5317 50  0000 C CNN
-F 1 "74HC04" H 3200 5226 50  0000 C CNN
-F 2 "" H 3200 5000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3200 5000 50  0001 C CNN
-	1    3200 5000
+P 8300 5300
+F 0 "U405" H 8300 5617 50  0000 C CNN
+F 1 "74HC04" H 8300 5526 50  0000 C CNN
+F 2 "" H 8300 5300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8300 5300 50  0001 C CNN
+	1    8300 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC04 U405
 U 2 1 60CD9E44
-P 3200 6000
-F 0 "U405" H 3200 6317 50  0000 C CNN
-F 1 "74HC04" H 3200 6226 50  0000 C CNN
-F 2 "" H 3200 6000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3200 6000 50  0001 C CNN
-	2    3200 6000
+P 3200 5000
+F 0 "U405" H 3200 5317 50  0000 C CNN
+F 1 "74HC04" H 3200 5226 50  0000 C CNN
+F 2 "" H 3200 5000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3200 5000 50  0001 C CNN
+	2    3200 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC04 U405
 U 3 1 60CDB507
-P 5000 5500
-F 0 "U405" H 5000 5817 50  0000 C CNN
-F 1 "74HC04" H 5000 5726 50  0000 C CNN
-F 2 "" H 5000 5500 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5000 5500 50  0001 C CNN
-	3    5000 5500
+P 3200 6000
+F 0 "U405" H 3200 6317 50  0000 C CNN
+F 1 "74HC04" H 3200 6226 50  0000 C CNN
+F 2 "" H 3200 6000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3200 6000 50  0001 C CNN
+	3    3200 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -282,12 +282,12 @@ $EndComp
 $Comp
 L 74xx:74HC04 U405
 U 5 1 60CDEE27
-P 8300 5300
-F 0 "U405" H 8300 5617 50  0000 C CNN
-F 1 "74HC04" H 8300 5526 50  0000 C CNN
-F 2 "" H 8300 5300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8300 5300 50  0001 C CNN
-	5    8300 5300
+P 5000 5500
+F 0 "U405" H 5000 5817 50  0000 C CNN
+F 1 "74HC04" H 5000 5726 50  0000 C CNN
+F 2 "" H 5000 5500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5000 5500 50  0001 C CNN
+	5    5000 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -453,7 +453,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 2700 50  0001 C CNN
 F 3 "~" H 2050 2850 50  0001 C CNN
 F 4 " C14663" V 2050 2850 50  0001 C CNN "LCSC"
 	1    2050 2850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -487,7 +487,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 2700 50  0001 C CNN
 F 3 "~" H 6900 2850 50  0001 C CNN
 F 4 " C14663" V 6900 2850 50  0001 C CNN "LCSC"
 	1    6900 2850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 2750 2350 2750

@@ -107,7 +107,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 1800 50  0001 C CNN
 F 3 "~" H 4150 1950 50  0001 C CNN
 F 4 " C14663" V 4150 1950 50  0001 C CNN "LCSC"
 	1    4150 1950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
