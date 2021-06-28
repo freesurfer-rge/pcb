@@ -1,0 +1,208 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J101
+U 1 1 60C994E1
+P 1100 1500
+F 0 "J101" H 1208 1681 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1208 1590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 1500 50  0001 C CNN
+F 3 "~" H 1100 1500 50  0001 C CNN
+	1    1100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-5.0 U101
+U 1 1 60C9A1C8
+P 2550 1500
+F 0 "U101" H 2550 1742 50  0000 C CNN
+F 1 "AMS1117-5.0" H 2550 1651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2550 1700 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2650 1250 50  0001 C CNN
+F 4 "C6187" H 2550 1500 50  0001 C CNN "LCSC"
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1500 1700 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 60C9BE86
+P 2550 2000
+F 0 "#PWR0102" H 2550 1750 50  0001 C CNN
+F 1 "GND" H 2555 1827 50  0000 C CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1800 2550 1900
+Wire Wire Line
+	1300 1600 1700 1600
+Wire Wire Line
+	2050 1600 2050 1900
+Wire Wire Line
+	2050 1900 2550 1900
+Connection ~ 2550 1900
+Wire Wire Line
+	2550 1900 2550 2000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C951D2
+P 1700 1500
+F 0 "#FLG0101" H 1700 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 1673 50  0000 C CNN
+F 2 "" H 1700 1500 50  0001 C CNN
+F 3 "~" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 2250 1500
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60C957A4
+P 1700 1600
+F 0 "#FLG0102" H 1700 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 1773 50  0000 C CNN
+F 2 "" H 1700 1600 50  0001 C CNN
+F 3 "~" H 1700 1600 50  0001 C CNN
+	1    1700 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 2050 1600
+$Comp
+L power:+5V #PWR0101
+U 1 1 60C95FD9
+P 3400 1500
+F 0 "#PWR0101" H 3400 1350 50  0001 C CNN
+F 1 "+5V" V 3415 1628 50  0000 L CNN
+F 2 "" H 3400 1500 50  0001 C CNN
+F 3 "" H 3400 1500 50  0001 C CNN
+	1    3400 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 1500 3400 1500
+$Sheet
+S 2300 4750 900  700 
+U 60C9CD02
+F0 "Display Clock" 50
+F1 "file60C9CD01.sch" 50
+F2 "CLK" O R 3200 5050 50 
+$EndSheet
+$Sheet
+S 2350 3550 850  750 
+U 60CA43D5
+F0 "Register Clock" 50
+F1 "file60CA43D4.sch" 50
+F2 "CLK" O R 3200 3900 50 
+$EndSheet
+$Sheet
+S 4500 3700 1750 1800
+U 60CB0F52
+F0 "LFSR" 50
+F1 "file60CB0F51.sch" 50
+F2 "REGCLK" I L 4500 3900 50 
+F3 "DISPCLK" I L 4500 5050 50 
+F4 "DISPE" O R 6250 4150 50 
+F5 "DISPM1" O R 6250 4350 50 
+F6 "DISPM2" O R 6250 4500 50 
+F7 "DISPA" O R 6250 4650 50 
+$EndSheet
+Wire Wire Line
+	3200 5050 4500 5050
+Wire Wire Line
+	3200 3900 4500 3900
+$Sheet
+S 7450 2400 600  600 
+U 60CD2CFA
+F0 "LED-E" 50
+F1 "file60CD2CF9.sch" 50
+F2 "LED-E" I L 7450 2700 50 
+$EndSheet
+Wire Wire Line
+	6250 4150 6700 4150
+Wire Wire Line
+	6700 4150 6700 2700
+Wire Wire Line
+	6700 2700 7450 2700
+$Sheet
+S 7450 3600 700  700 
+U 60D27A84
+F0 "LED-M1" 50
+F1 "file60D27A83.sch" 50
+F2 "LED-M1" I L 7450 3950 50 
+$EndSheet
+Wire Wire Line
+	6250 4350 7000 4350
+Wire Wire Line
+	7000 4350 7000 3950
+Wire Wire Line
+	7000 3950 7450 3950
+$Sheet
+S 7500 4650 650  600 
+U 60D72CD2
+F0 "LED-M2" 50
+F1 "file60D72CD1.sch" 50
+F2 "LED-M2" I L 7500 4900 50 
+$EndSheet
+Wire Wire Line
+	6250 4500 7000 4500
+Wire Wire Line
+	7000 4500 7000 4900
+Wire Wire Line
+	7000 4900 7500 4900
+$Sheet
+S 7500 5450 650  700 
+U 60DC2975
+F0 "LED-A" 50
+F1 "file60DC2974.sch" 50
+F2 "LED-A" I L 7500 5850 50 
+$EndSheet
+Wire Wire Line
+	6250 4650 6700 4650
+Wire Wire Line
+	6700 4650 6700 5850
+Wire Wire Line
+	6700 5850 7500 5850
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 60E181EE
+P 950 2700
+F 0 "H101" H 1050 2746 50  0000 L CNN
+F 1 "MountingHole" H 1050 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 950 2700 50  0001 C CNN
+F 3 "~" H 950 2700 50  0001 C CNN
+	1    950  2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 60E188DE
+P 1750 2700
+F 0 "H102" H 1850 2746 50  0000 L CNN
+F 1 "MountingHole" H 1850 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1750 2700 50  0001 C CNN
+F 3 "~" H 1750 2700 50  0001 C CNN
+	1    1750 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
