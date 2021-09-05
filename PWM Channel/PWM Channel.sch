@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -102,4 +102,21 @@ F0 "Driver Clock" 50
 F1 "file613546BC.sch" 50
 F2 "PWMCLK" O R 4500 1250 50 
 $EndSheet
+$Sheet
+S 5000 1750 1250 1700
+U 61351170
+F0 "PWM" 50
+F1 "file6135116F.sch" 50
+F2 "~SELECT" I L 5000 2600 50 
+F3 "CLK" I L 5000 2750 50 
+F4 "COPI" I L 5000 2900 50 
+F5 "DRIVER" I L 5000 2000 50 
+F6 "PWMOUT" I R 6250 2550 50 
+$EndSheet
+Wire Wire Line
+	4500 1250 4750 1250
+Wire Wire Line
+	4750 1250 4750 2000
+Wire Wire Line
+	4750 2000 5000 2000
 $EndSCHEMATC
