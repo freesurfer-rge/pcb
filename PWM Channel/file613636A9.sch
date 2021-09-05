@@ -1,0 +1,291 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3350 2950 0    50   Input ~ 0
+~SELECT
+Wire Wire Line
+	3350 2950 3650 2950
+Text HLabel 3350 2650 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	3350 2650 3650 2650
+Text HLabel 3350 2450 0    50   Input ~ 0
+COPI
+Wire Wire Line
+	3350 2450 3650 2450
+$Comp
+L power:GND #PWR?
+U 1 1 61365705
+P 4050 3650
+F 0 "#PWR?" H 4050 3400 50  0001 C CNN
+F 1 "GND" V 4055 3522 50  0000 R CNN
+F 2 "" H 4050 3650 50  0001 C CNN
+F 3 "" H 4050 3650 50  0001 C CNN
+	1    4050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3650 4050 3550
+$Comp
+L power:+5V #PWR?
+U 1 1 6136570C
+P 3550 2750
+F 0 "#PWR?" H 3550 2600 50  0001 C CNN
+F 1 "+5V" V 3565 2878 50  0000 L CNN
+F 2 "" H 3550 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0001 C CNN
+	1    3550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2750 3650 2750
+$Comp
+L Device:C C?
+U 1 1 61365713
+P 3750 1950
+AR Path="/613546BD/61365713" Ref="C?"  Part="1" 
+AR Path="/61351170/61365713" Ref="C?"  Part="1" 
+F 0 "C?" H 3635 1904 50  0000 R CNN
+F 1 "0.1uF" H 3635 1995 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3788 1800 50  0001 C CNN
+F 3 "~" H 3750 1950 50  0001 C CNN
+	1    3750 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61365719
+P 4050 1700
+F 0 "#PWR?" H 4050 1550 50  0001 C CNN
+F 1 "+5V" H 4065 1873 50  0000 C CNN
+F 2 "" H 4050 1700 50  0001 C CNN
+F 3 "" H 4050 1700 50  0001 C CNN
+	1    4050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1800 3750 1750
+Wire Wire Line
+	3750 1750 4050 1750
+Wire Wire Line
+	4050 1750 4050 1700
+Wire Wire Line
+	4050 2250 4050 1750
+Connection ~ 4050 1750
+$Comp
+L power:GND #PWR?
+U 1 1 61365724
+P 3200 3050
+F 0 "#PWR?" H 3200 2800 50  0001 C CNN
+F 1 "GND" V 3205 2922 50  0000 R CNN
+F 2 "" H 3200 3050 50  0001 C CNN
+F 3 "" H 3200 3050 50  0001 C CNN
+	1    3200 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3050 3650 3050
+$Comp
+L 74xx:74HCT595 U?
+U 1 1 6136572B
+P 4050 2850
+F 0 "U?" H 4050 3631 50  0000 C CNN
+F 1 "74HCT595" H 4050 3540 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 4050 2850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 4050 2850 50  0001 C CNN
+	1    4050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61365731
+P 3500 2100
+F 0 "#PWR?" H 3500 1850 50  0001 C CNN
+F 1 "GND" V 3505 1972 50  0000 R CNN
+F 2 "" H 3500 2100 50  0001 C CNN
+F 3 "" H 3500 2100 50  0001 C CNN
+	1    3500 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2100 3750 2100
+Text HLabel 3350 5450 0    50   Input ~ 0
+~SELECT
+Wire Wire Line
+	3350 5450 3650 5450
+Text HLabel 3350 5150 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	3350 5150 3650 5150
+$Comp
+L power:GND #PWR?
+U 1 1 6136573C
+P 4050 6150
+F 0 "#PWR?" H 4050 5900 50  0001 C CNN
+F 1 "GND" V 4055 6022 50  0000 R CNN
+F 2 "" H 4050 6150 50  0001 C CNN
+F 3 "" H 4050 6150 50  0001 C CNN
+	1    4050 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6150 4050 6050
+$Comp
+L power:+5V #PWR?
+U 1 1 61365743
+P 3550 5250
+F 0 "#PWR?" H 3550 5100 50  0001 C CNN
+F 1 "+5V" V 3565 5378 50  0000 L CNN
+F 2 "" H 3550 5250 50  0001 C CNN
+F 3 "" H 3550 5250 50  0001 C CNN
+	1    3550 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 5250 3650 5250
+$Comp
+L Device:C C?
+U 1 1 6136574A
+P 3750 4450
+AR Path="/613546BD/6136574A" Ref="C?"  Part="1" 
+AR Path="/61351170/6136574A" Ref="C?"  Part="1" 
+F 0 "C?" H 3635 4404 50  0000 R CNN
+F 1 "0.1uF" H 3635 4495 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3788 4300 50  0001 C CNN
+F 3 "~" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61365750
+P 4050 4200
+F 0 "#PWR?" H 4050 4050 50  0001 C CNN
+F 1 "+5V" H 4065 4373 50  0000 C CNN
+F 2 "" H 4050 4200 50  0001 C CNN
+F 3 "" H 4050 4200 50  0001 C CNN
+	1    4050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4300 3750 4250
+Wire Wire Line
+	3750 4250 4050 4250
+Wire Wire Line
+	4050 4250 4050 4200
+Wire Wire Line
+	4050 4750 4050 4250
+Connection ~ 4050 4250
+$Comp
+L power:GND #PWR?
+U 1 1 6136575B
+P 3200 5550
+F 0 "#PWR?" H 3200 5300 50  0001 C CNN
+F 1 "GND" V 3205 5422 50  0000 R CNN
+F 2 "" H 3200 5550 50  0001 C CNN
+F 3 "" H 3200 5550 50  0001 C CNN
+	1    3200 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 5550 3650 5550
+$Comp
+L 74xx:74HCT595 U?
+U 1 1 61365762
+P 4050 5350
+F 0 "U?" H 4050 6131 50  0000 C CNN
+F 1 "74HCT595" H 4050 6040 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 4050 5350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 4050 5350 50  0001 C CNN
+	1    4050 5350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 5850
+$Comp
+L power:GND #PWR?
+U 1 1 61365769
+P 3500 4600
+F 0 "#PWR?" H 3500 4350 50  0001 C CNN
+F 1 "GND" V 3505 4472 50  0000 R CNN
+F 2 "" H 3500 4600 50  0001 C CNN
+F 3 "" H 3500 4600 50  0001 C CNN
+	1    3500 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 4600 3750 4600
+Wire Wire Line
+	4450 3350 4700 3350
+Wire Wire Line
+	4700 3350 4700 3600
+Wire Wire Line
+	4700 3600 2850 3600
+Wire Wire Line
+	2850 3600 2850 4950
+Wire Wire Line
+	2850 4950 3650 4950
+NoConn ~ 4450 2450
+NoConn ~ 4450 2550
+NoConn ~ 4450 2650
+NoConn ~ 4450 2750
+Text HLabel 4850 5650 2    50   Output ~ 0
+B00
+Text HLabel 4850 5550 2    50   Output ~ 0
+B01
+Text HLabel 4850 5450 2    50   Output ~ 0
+B02
+Text HLabel 4850 5350 2    50   Output ~ 0
+B03
+Text HLabel 4850 5250 2    50   Output ~ 0
+B04
+Text HLabel 4850 5150 2    50   Output ~ 0
+B05
+Text HLabel 4850 5050 2    50   Output ~ 0
+B06
+Text HLabel 4850 4950 2    50   Output ~ 0
+B07
+Text HLabel 4750 3150 2    50   Output ~ 0
+B08
+Text HLabel 4750 3050 2    50   Output ~ 0
+B09
+Text HLabel 4750 2950 2    50   Output ~ 0
+B10
+Text HLabel 4750 2850 2    50   Output ~ 0
+B11
+Wire Wire Line
+	4450 3150 4750 3150
+Wire Wire Line
+	4450 3050 4750 3050
+Wire Wire Line
+	4450 2950 4750 2950
+Wire Wire Line
+	4450 2850 4750 2850
+Wire Wire Line
+	4450 5650 4850 5650
+Wire Wire Line
+	4450 5550 4850 5550
+Wire Wire Line
+	4450 5450 4850 5450
+Wire Wire Line
+	4450 5350 4850 5350
+Wire Wire Line
+	4450 5250 4850 5250
+Wire Wire Line
+	4450 5150 4850 5150
+Wire Wire Line
+	4450 5050 4850 5050
+Wire Wire Line
+	4850 4950 4450 4950
+$EndSCHEMATC
