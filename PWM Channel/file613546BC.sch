@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:NE555P U201
+U 1 1 6025D46C
+P 3250 2400
+F 0 "U201" H 3250 2981 50  0000 C CNN
+F 1 "NE555P" H 3250 2890 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3900 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 4100 2000 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0202
+U 1 1 6025FF20
+P 3250 1000
+F 0 "#PWR0202" H 3250 850 50  0001 C CNN
+F 1 "+5V" H 3265 1173 50  0000 C CNN
+F 2 "" H 3250 1000 50  0001 C CNN
+F 3 "" H 3250 1000 50  0001 C CNN
+	1    3250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C202
+U 1 1 602609DD
+P 2250 1300
+F 0 "C202" H 2135 1254 50  0000 R CNN
+F 1 "0.1uF" H 2135 1345 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2288 1150 50  0001 C CNN
+F 3 "~" H 2250 1300 50  0001 C CNN
+	1    2250 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 602614DC
+P 3250 3500
+F 0 "#PWR0203" H 3250 3250 50  0001 C CNN
+F 1 "GND" H 3255 3327 50  0000 C CNN
+F 2 "" H 3250 3500 50  0001 C CNN
+F 3 "" H 3250 3500 50  0001 C CNN
+	1    3250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2000 3250 1500
+Wire Wire Line
+	3250 2800 3250 3400
+Wire Wire Line
+	2250 1150 2600 1150
+Connection ~ 3250 1150
+Wire Wire Line
+	3250 1150 3250 1000
+Wire Wire Line
+	2750 2600 2600 2600
+Wire Wire Line
+	2600 2600 2600 1150
+Connection ~ 2600 1150
+Wire Wire Line
+	2600 1150 3250 1150
+Text Label 2300 2200 2    50   ~ 0
+TRTHR
+Wire Wire Line
+	2750 2200 2300 2200
+Text Label 4250 2600 0    50   ~ 0
+TRTHR
+Wire Wire Line
+	3750 2600 4250 2600
+$Comp
+L power:GND #PWR0201
+U 1 1 60262E8D
+P 2250 1600
+F 0 "#PWR0201" H 2250 1350 50  0001 C CNN
+F 1 "GND" H 2255 1427 50  0000 C CNN
+F 2 "" H 2250 1600 50  0001 C CNN
+F 3 "" H 2250 1600 50  0001 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1450 2250 1600
+$Comp
+L Device:C C203
+U 1 1 60264229
+P 2350 3100
+F 0 "C203" H 2465 3146 50  0000 L CNN
+F 1 "0.01uF" H 2465 3055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2388 2950 50  0001 C CNN
+F 3 "~" H 2350 3100 50  0001 C CNN
+	1    2350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2400 2350 2400
+Wire Wire Line
+	2350 2400 2350 2950
+Wire Wire Line
+	2350 3250 2350 3400
+Wire Wire Line
+	2350 3400 3250 3400
+Connection ~ 3250 3400
+Wire Wire Line
+	3250 3400 3250 3500
+$Comp
+L Device:CP C201
+U 1 1 60265318
+P 1500 3200
+F 0 "C201" H 1618 3246 50  0000 L CNN
+F 1 "1uF" H 1618 3155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 1538 3050 50  0001 C CNN
+F 3 "~" H 1500 3200 50  0001 C CNN
+	1    1500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3400 1500 3400
+Wire Wire Line
+	1500 3400 1500 3350
+Connection ~ 2350 3400
+$Comp
+L Device:R R202
+U 1 1 602666FF
+P 1500 2500
+F 0 "R202" H 1570 2546 50  0000 L CNN
+F 1 "33" H 1570 2455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1430 2500 50  0001 C CNN
+F 3 "~" H 1500 2500 50  0001 C CNN
+	1    1500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 602675D3
+P 1500 1350
+F 0 "R201" H 1570 1396 50  0000 L CNN
+F 1 "33" H 1570 1305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1430 1350 50  0001 C CNN
+F 3 "~" H 1500 1350 50  0001 C CNN
+	1    1500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1150 1500 1150
+Connection ~ 2250 1150
+Wire Wire Line
+	1500 1500 1500 1700
+Wire Wire Line
+	1500 2650 1500 2800
+Text Label 1200 1700 2    50   ~ 0
+DIVIDER
+Wire Wire Line
+	1200 1700 1500 1700
+Text Label 1200 2800 2    50   ~ 0
+TRTHR
+Wire Wire Line
+	1200 2800 1500 2800
+Connection ~ 1500 2800
+Wire Wire Line
+	1500 2800 1500 3050
+$Comp
+L Device:R R203
+U 1 1 60269907
+P 3950 1900
+F 0 "R203" H 4020 1946 50  0000 L CNN
+F 1 "1k" H 4020 1855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 1900 50  0001 C CNN
+F 3 "~" H 3950 1900 50  0001 C CNN
+	1    3950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1750 3950 1500
+Wire Wire Line
+	3950 1500 3250 1500
+Connection ~ 3250 1500
+Wire Wire Line
+	3250 1500 3250 1150
+Wire Wire Line
+	3750 2200 3950 2200
+Wire Wire Line
+	3950 2200 3950 2050
+Text Label 4250 2400 0    50   ~ 0
+DIVIDER
+Wire Wire Line
+	3750 2400 4250 2400
+Wire Wire Line
+	3950 2200 4600 2200
+Connection ~ 3950 2200
+Text HLabel 4600 2200 2    50   Output ~ 0
+PWMCLK
+$Comp
+L Device:R_POT RV201
+U 1 1 61355E26
+P 1500 2050
+F 0 "RV201" H 1431 2096 50  0000 R CNN
+F 1 "R_POT" H 1431 2005 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" H 1500 2050 50  0001 C CNN
+F 3 "~" H 1500 2050 50  0001 C CNN
+	1    1500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1900 1500 1700
+Connection ~ 1500 1700
+Wire Wire Line
+	1500 2200 1500 2300
+Wire Wire Line
+	1650 2050 1800 2050
+Wire Wire Line
+	1800 2050 1800 2300
+Wire Wire Line
+	1800 2300 1500 2300
+Connection ~ 1500 2300
+Wire Wire Line
+	1500 2300 1500 2350
+Wire Wire Line
+	1500 1150 1500 1200
+$EndSCHEMATC

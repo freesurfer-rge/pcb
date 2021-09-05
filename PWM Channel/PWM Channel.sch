@@ -1,0 +1,105 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x05_Male J101
+U 1 1 613504AB
+P 1200 2200
+F 0 "J101" H 1308 2581 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 1308 2490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1200 2200 50  0001 C CNN
+F 3 "~" H 1200 2200 50  0001 C CNN
+	1    1200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C101
+U 1 1 61351583
+P 2500 2200
+F 0 "C101" H 2618 2246 50  0000 L CNN
+F 1 "CP" H 2618 2155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 2538 2050 50  0001 C CNN
+F 3 "~" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2000 1900 2000
+Wire Wire Line
+	2500 2000 2500 2050
+Wire Wire Line
+	1400 2400 1900 2400
+Wire Wire Line
+	2500 2400 2500 2350
+$Comp
+L power:GND #PWR0102
+U 1 1 61352B21
+P 2500 2400
+F 0 "#PWR0102" H 2500 2150 50  0001 C CNN
+F 1 "GND" H 2505 2227 50  0000 C CNN
+F 2 "" H 2500 2400 50  0001 C CNN
+F 3 "" H 2500 2400 50  0001 C CNN
+	1    2500 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 2400
+$Comp
+L power:+5V #PWR0101
+U 1 1 61353075
+P 2500 2000
+F 0 "#PWR0101" H 2500 1850 50  0001 C CNN
+F 1 "+5V" H 2515 2173 50  0000 C CNN
+F 2 "" H 2500 2000 50  0001 C CNN
+F 3 "" H 2500 2000 50  0001 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 2000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 613535E3
+P 1900 2000
+F 0 "#FLG0101" H 1900 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 2173 50  0000 C CNN
+F 2 "" H 1900 2000 50  0001 C CNN
+F 3 "~" H 1900 2000 50  0001 C CNN
+	1    1900 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 2000
+Wire Wire Line
+	1900 2000 2500 2000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61353B69
+P 1900 2400
+F 0 "#FLG0102" H 1900 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 2573 50  0000 C CNN
+F 2 "" H 1900 2400 50  0001 C CNN
+F 3 "~" H 1900 2400 50  0001 C CNN
+	1    1900 2400
+	-1   0    0    1   
+$EndComp
+Connection ~ 1900 2400
+Wire Wire Line
+	1900 2400 2500 2400
+$Sheet
+S 3650 1150 850  250 
+U 613546BD
+F0 "Driver Clock" 50
+F1 "file613546BC.sch" 50
+F2 "PWMCLK" O R 4500 1250 50 
+$EndSheet
+$EndSCHEMATC
