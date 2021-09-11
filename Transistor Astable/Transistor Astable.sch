@@ -55,7 +55,7 @@ F 1 "47k" H 6020 3055 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 3100 50  0001 C CNN
 F 3 "~" H 5950 3100 50  0001 C CNN
 	1    5950 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R3
@@ -66,7 +66,7 @@ F 1 "47k" H 6770 3055 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6630 3100 50  0001 C CNN
 F 3 "~" H 6700 3100 50  0001 C CNN
 	1    6700 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -132,7 +132,7 @@ U 1 1 613E1CF2
 P 9250 3000
 F 0 "BT1" H 9368 3096 50  0000 L CNN
 F 1 "Battery_Cell" H 9368 3005 50  0000 L CNN
-F 2 "" V 9250 3060 50  0001 C CNN
+F 2 "Transistor Astable:BattHold_Linx_CR2032" V 9250 3060 50  0001 C CNN
 F 3 "~" V 9250 3060 50  0001 C CNN
 	1    9250 3000
 	1    0    0    -1  
@@ -143,7 +143,7 @@ U 1 1 613E2458
 P 9250 3450
 F 0 "BT2" H 9368 3546 50  0000 L CNN
 F 1 "Battery_Cell" H 9368 3455 50  0000 L CNN
-F 2 "" V 9250 3510 50  0001 C CNN
+F 2 "Transistor Astable:BattHold_Linx_CR2032" V 9250 3510 50  0001 C CNN
 F 3 "~" V 9250 3510 50  0001 C CNN
 	1    9250 3450
 	1    0    0    -1  
