@@ -1,0 +1,270 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 613CC036
+P 7300 4000
+F 0 "Q2" H 7490 4046 50  0000 L CNN
+F 1 "2N3904" H 7490 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7500 3925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 7300 4000 50  0001 L CNN
+	1    7300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 613CD183
+P 5250 4000
+F 0 "Q1" H 5441 4046 50  0000 L CNN
+F 1 "2N3904" H 5441 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5450 3925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5250 4000 50  0001 L CNN
+	1    5250 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 613CEABF
+P 6850 3550
+F 0 "C2" V 6595 3550 50  0000 C CNN
+F 1 "10u" V 6686 3550 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 6888 3400 50  0001 C CNN
+F 3 "~" H 6850 3550 50  0001 C CNN
+	1    6850 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 613CFF86
+P 5800 3550
+F 0 "C1" V 5545 3550 50  0000 C CNN
+F 1 "10u" V 5636 3550 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 5838 3400 50  0001 C CNN
+F 3 "~" H 5800 3550 50  0001 C CNN
+	1    5800 3550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5450 4000 5450 3850
+Wire Wire Line
+	5450 3850 6700 3850
+Wire Wire Line
+	6700 3850 6700 3550
+Wire Wire Line
+	7100 4000 7100 3800
+Wire Wire Line
+	7100 3800 5950 3800
+Wire Wire Line
+	5950 3800 5950 3550
+$Comp
+L Device:R R2
+U 1 1 613D05A5
+P 5150 3100
+F 0 "R2" H 5220 3146 50  0000 L CNN
+F 1 "680" H 5220 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5080 3100 50  0001 C CNN
+F 3 "~" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 613D159E
+P 5950 3100
+F 0 "R3" H 6020 3146 50  0000 L CNN
+F 1 "47k" H 6020 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 3100 50  0001 C CNN
+F 3 "~" H 5950 3100 50  0001 C CNN
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 613D1A43
+P 6700 3100
+F 0 "R4" H 6770 3146 50  0000 L CNN
+F 1 "47k" H 6770 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6630 3100 50  0001 C CNN
+F 3 "~" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 613D1EE8
+P 7400 3100
+F 0 "R5" H 7470 3146 50  0000 L CNN
+F 1 "680" H 7470 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7330 3100 50  0001 C CNN
+F 3 "~" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3250 5150 3450
+Wire Wire Line
+	5650 3550 5150 3550
+Connection ~ 5150 3550
+Wire Wire Line
+	5150 3550 5150 3800
+Wire Wire Line
+	5950 3250 5950 3550
+Connection ~ 5950 3550
+Wire Wire Line
+	6700 3250 6700 3550
+Connection ~ 6700 3550
+Wire Wire Line
+	7400 3250 7400 3450
+Wire Wire Line
+	7000 3550 7400 3550
+Connection ~ 7400 3550
+Wire Wire Line
+	7400 3550 7400 3800
+$Comp
+L power:GND #PWR01
+U 1 1 613D2ED4
+P 5150 4450
+F 0 "#PWR01" H 5150 4200 50  0001 C CNN
+F 1 "GND" H 5155 4277 50  0000 C CNN
+F 2 "" H 5150 4450 50  0001 C CNN
+F 3 "" H 5150 4450 50  0001 C CNN
+	1    5150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4200 5150 4350
+$Comp
+L power:GND #PWR03
+U 1 1 613D332C
+P 7400 4450
+F 0 "#PWR03" H 7400 4200 50  0001 C CNN
+F 1 "GND" H 7405 4277 50  0000 C CNN
+F 2 "" H 7400 4450 50  0001 C CNN
+F 3 "" H 7400 4450 50  0001 C CNN
+	1    7400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4450 7400 4350
+$Comp
+L Device:R R1
+U 1 1 613D4264
+P 4250 3650
+F 0 "R1" H 4320 3696 50  0000 L CNN
+F 1 "470" H 4320 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4180 3650 50  0001 C CNN
+F 3 "~" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 613D4815
+P 4250 4050
+F 0 "D1" V 4289 3932 50  0000 R CNN
+F 1 "LED" V 4198 3932 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4250 4050 50  0001 C CNN
+F 3 "~" H 4250 4050 50  0001 C CNN
+	1    4250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 613D7876
+P 8000 3650
+F 0 "R6" H 8070 3696 50  0000 L CNN
+F 1 "470" H 8070 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7930 3650 50  0001 C CNN
+F 3 "~" H 8000 3650 50  0001 C CNN
+	1    8000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 613D787C
+P 8000 4050
+F 0 "D2" V 8039 3932 50  0000 R CNN
+F 1 "LED" V 7948 3932 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 8000 4050 50  0001 C CNN
+F 3 "~" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 3500 4250 3450
+Wire Wire Line
+	4250 3450 5150 3450
+Connection ~ 5150 3450
+Wire Wire Line
+	5150 3450 5150 3550
+Wire Wire Line
+	4250 3800 4250 3900
+Wire Wire Line
+	4250 4200 4250 4350
+Wire Wire Line
+	4250 4350 5150 4350
+Connection ~ 5150 4350
+Wire Wire Line
+	5150 4350 5150 4450
+Wire Wire Line
+	7400 4350 8000 4350
+Wire Wire Line
+	8000 4350 8000 4200
+Connection ~ 7400 4350
+Wire Wire Line
+	7400 4350 7400 4200
+Wire Wire Line
+	8000 3900 8000 3800
+Wire Wire Line
+	8000 3500 8000 3450
+Wire Wire Line
+	8000 3450 7400 3450
+Connection ~ 7400 3450
+Wire Wire Line
+	7400 3450 7400 3550
+$Comp
+L power:+6V #PWR02
+U 1 1 613D96DD
+P 6350 2500
+F 0 "#PWR02" H 6350 2350 50  0001 C CNN
+F 1 "+6V" H 6365 2673 50  0000 C CNN
+F 2 "" H 6350 2500 50  0001 C CNN
+F 3 "" H 6350 2500 50  0001 C CNN
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2950 5150 2700
+Wire Wire Line
+	5150 2700 5950 2700
+Wire Wire Line
+	7400 2700 7400 2950
+Wire Wire Line
+	6700 2950 6700 2700
+Connection ~ 6700 2700
+Wire Wire Line
+	6700 2700 7400 2700
+Wire Wire Line
+	5950 2950 5950 2700
+Connection ~ 5950 2700
+Wire Wire Line
+	5950 2700 6350 2700
+Wire Wire Line
+	6350 2500 6350 2700
+Connection ~ 6350 2700
+Wire Wire Line
+	6350 2700 6700 2700
+$EndSCHEMATC
