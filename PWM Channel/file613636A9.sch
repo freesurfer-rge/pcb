@@ -149,8 +149,6 @@ Text HLabel 7950 1900 2    50   Output ~ 0
 B06
 Text HLabel 7950 1800 2    50   Output ~ 0
 B07
-Text Label 2900 1800 2    50   ~ 0
-COPI
 $Comp
 L Device:LED D401
 U 1 1 6162357D
@@ -449,4 +447,6 @@ Wire Wire Line
 Connection ~ 7250 2500
 Wire Wire Line
 	7250 2500 7950 2500
+Text HLabel 2900 1800 0    50   Input ~ 0
+COPI
 $EndSCHEMATC
