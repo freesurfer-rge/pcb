@@ -218,17 +218,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 1150 1500 1200
 $Comp
-L Device:CP C201
-U 1 1 6163D81F
-P 1500 3200
-F 0 "C201" H 1618 3246 50  0000 L CNN
-F 1 "1uF" H 1618 3155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 1538 3050 50  0001 C CNN
-F 3 "~" H 1500 3200 50  0001 C CNN
-	1    1500 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D?
 U 1 1 6163F56D
 P 5150 2500
@@ -270,4 +259,15 @@ Wire Wire Line
 Connection ~ 3250 3250
 Wire Wire Line
 	3250 3250 3250 3400
+$Comp
+L Device:C C201
+U 1 1 616B46B5
+P 1500 3200
+F 0 "C201" H 1385 3154 50  0000 R CNN
+F 1 "0.1uF" H 1385 3245 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1538 3050 50  0001 C CNN
+F 3 "~" H 1500 3200 50  0001 C CNN
+	1    1500 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
