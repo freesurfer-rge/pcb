@@ -662,4 +662,21 @@ Wire Wire Line
 Connection ~ 6600 3500
 Wire Wire Line
 	6600 3500 6700 3500
+$Comp
+L Connector:Conn_01x02_Male J1006
+U 1 1 619EA8F0
+P 2900 1250
+F 0 "J1006" H 3008 1431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3008 1340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1250 50  0001 C CNN
+F 3 "~" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1250 2700 1250
+Connection ~ 2300 1250
+Wire Wire Line
+	2300 1350 2700 1350
+Connection ~ 2300 1350
 $EndSCHEMATC
