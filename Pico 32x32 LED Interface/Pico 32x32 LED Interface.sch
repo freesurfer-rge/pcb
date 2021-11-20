@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x20_Female J1001
-U 1 1 61996B9B
-P 2850 1950
-F 0 "J1001" H 2878 1926 50  0000 L CNN
-F 1 "Conn_01x20_Female" H 2878 1835 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2850 1950 50  0001 C CNN
-F 3 "~" H 2850 1950 50  0001 C CNN
-	1    2850 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L LevelShifter:SN74LVC4245APWR U1001
 U 1 1 619AA4B0
 P 4700 4550
@@ -34,6 +23,249 @@ F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 4700 4550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/1809192324_Texas-Instruments-SN74LVC4245APWR_C7859.pdf" H 4700 4550 50  0001 C CNN
 F 4 "C7859" H 4700 5473 50  0000 C CNN "LCSC"
 	1    4700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61996F50
+P 3900 4000
+F 0 "#PWR0101" H 3900 3750 50  0001 C CNN
+F 1 "GND" V 3905 3872 50  0000 R CNN
+F 2 "" H 3900 4000 50  0001 C CNN
+F 3 "" H 3900 4000 50  0001 C CNN
+	1    3900 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 4000 4100 4000
+Wire Wire Line
+	4100 4000 4100 3950
+Wire Wire Line
+	4100 3950 4250 3950
+Wire Wire Line
+	4250 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 4000
+Connection ~ 4100 4000
+$Comp
+L power:GND #PWR0102
+U 1 1 619975E9
+P 3900 5250
+F 0 "#PWR0102" H 3900 5000 50  0001 C CNN
+F 1 "GND" V 3905 5122 50  0000 R CNN
+F 2 "" H 3900 5250 50  0001 C CNN
+F 3 "" H 3900 5250 50  0001 C CNN
+	1    3900 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 5250 3950 5250
+Wire Wire Line
+	4250 5350 3950 5350
+Wire Wire Line
+	3950 5350 3950 5250
+Connection ~ 3950 5250
+Wire Wire Line
+	3950 5250 4150 5250
+Wire Wire Line
+	4250 5150 4150 5150
+Wire Wire Line
+	4150 5150 4150 5250
+Connection ~ 4150 5250
+Wire Wire Line
+	4150 5250 4250 5250
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 6199889D
+P 5400 3500
+F 0 "#PWR0103" H 5400 3350 50  0001 C CNN
+F 1 "+3V3" H 5415 3673 50  0000 C CNN
+F 2 "" H 5400 3500 50  0001 C CNN
+F 3 "" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3800 5400 3800
+Wire Wire Line
+	5400 3800 5400 3650
+Wire Wire Line
+	5150 3900 5400 3900
+Wire Wire Line
+	5400 3900 5400 3800
+Connection ~ 5400 3800
+$Comp
+L power:+5V #PWR0104
+U 1 1 61999CAF
+P 4000 3500
+F 0 "#PWR0104" H 4000 3350 50  0001 C CNN
+F 1 "+5V" H 4015 3673 50  0000 C CNN
+F 2 "" H 4000 3500 50  0001 C CNN
+F 3 "" H 4000 3500 50  0001 C CNN
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3500 4000 3650
+Wire Wire Line
+	4000 3800 4250 3800
+$Comp
+L Device:C C1001
+U 1 1 6199A241
+P 3650 3650
+F 0 "C1001" V 3398 3650 50  0000 C CNN
+F 1 "100n" V 3489 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3688 3500 50  0001 C CNN
+F 3 "~" H 3650 3650 50  0001 C CNN
+F 4 "C1525" H 3650 3650 50  0001 C CNN "LCSC"
+	1    3650 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1002
+U 1 1 6199B5F6
+P 5700 3650
+F 0 "C1002" V 5448 3650 50  0000 C CNN
+F 1 "100n" V 5539 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5738 3500 50  0001 C CNN
+F 3 "~" H 5700 3650 50  0001 C CNN
+F 4 "C1525" H 5700 3650 50  0001 C CNN "LCSC"
+	1    5700 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3650 4000 3650
+Connection ~ 4000 3650
+Wire Wire Line
+	4000 3650 4000 3800
+Wire Wire Line
+	5400 3650 5550 3650
+Connection ~ 5400 3650
+Wire Wire Line
+	5400 3650 5400 3500
+$Comp
+L power:GND #PWR0105
+U 1 1 6199BFD2
+P 3300 3650
+F 0 "#PWR0105" H 3300 3400 50  0001 C CNN
+F 1 "GND" V 3305 3522 50  0000 R CNN
+F 2 "" H 3300 3650 50  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 3650 3500 3650
+$Comp
+L power:GND #PWR0106
+U 1 1 6199C7FD
+P 6150 3650
+F 0 "#PWR0106" H 6150 3400 50  0001 C CNN
+F 1 "GND" V 6155 3522 50  0000 R CNN
+F 2 "" H 6150 3650 50  0001 C CNN
+F 3 "" H 6150 3650 50  0001 C CNN
+	1    6150 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3650 6150 3650
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J1002
+U 1 1 619A108C
+P 1700 5600
+F 0 "J1002" H 1750 6117 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 1750 6026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 1700 5600 50  0001 C CNN
+F 3 "~" H 1700 5600 50  0001 C CNN
+	1    1700 5600
+	1    0    0    -1  
+$EndComp
+Text Label 1250 5300 2    50   ~ 0
+R1Out
+Wire Wire Line
+	1250 5300 1500 5300
+$Comp
+L power:GND #PWR0107
+U 1 1 619A7A5C
+P 2300 6250
+F 0 "#PWR0107" H 2300 6000 50  0001 C CNN
+F 1 "GND" H 2305 6077 50  0000 C CNN
+F 2 "" H 2300 6250 50  0001 C CNN
+F 3 "" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6000 2300 6000
+Wire Wire Line
+	2300 6000 2300 6250
+Wire Wire Line
+	2000 5400 2300 5400
+Wire Wire Line
+	2300 5400 2300 5600
+Connection ~ 2300 6000
+Wire Wire Line
+	2000 5600 2300 5600
+Connection ~ 2300 5600
+Wire Wire Line
+	2300 5600 2300 6000
+Text Label 2500 5300 0    50   ~ 0
+G1Out
+Text Label 2500 5500 0    50   ~ 0
+G2Out
+Wire Wire Line
+	2000 5300 2500 5300
+Wire Wire Line
+	2000 5500 2500 5500
+Text Label 1250 5400 2    50   ~ 0
+B1Out
+Text Label 1250 5500 2    50   ~ 0
+R2Out
+Text Label 1250 5600 2    50   ~ 0
+B2Out
+Text Label 1250 5700 2    50   ~ 0
+AOut
+Text Label 1250 5800 2    50   ~ 0
+COut
+Wire Wire Line
+	1250 5400 1500 5400
+Wire Wire Line
+	1250 5500 1500 5500
+Wire Wire Line
+	1250 5600 1500 5600
+Wire Wire Line
+	1250 5700 1500 5700
+Wire Wire Line
+	1250 5800 1500 5800
+Text Label 2500 5700 0    50   ~ 0
+BOut
+Text Label 2500 5800 0    50   ~ 0
+DOut
+Wire Wire Line
+	2000 5700 2500 5700
+Wire Wire Line
+	2000 5800 2500 5800
+Text Label 1250 5900 2    50   ~ 0
+CLK
+Wire Wire Line
+	1250 5900 1500 5900
+Text Label 1250 6000 2    50   ~ 0
+~OEOut
+Wire Wire Line
+	1250 6000 1500 6000
+Text Label 2500 5900 0    50   ~ 0
+LatchOut
+Wire Wire Line
+	2000 5900 2500 5900
+$Comp
+L LevelShifter:Pico_Header U?
+U 1 1 6199BB17
+P 7950 4300
+F 0 "U?" H 7950 5565 50  0000 C CNN
+F 1 "Pico_Header" H 7950 5474 50  0000 C CNN
+F 2 "" H 7950 5500 50  0001 C CNN
+F 3 "" H 7950 5500 50  0001 C CNN
+	1    7950 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
