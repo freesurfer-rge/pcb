@@ -1,0 +1,181 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R202
+U 1 1 61B530DF
+P 2000 2350
+F 0 "R202" H 2070 2396 50  0000 L CNN
+F 1 "10k" H 2070 2305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1930 2350 50  0001 C CNN
+F 3 "~" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 61B534B8
+P 2000 1850
+F 0 "R201" H 2070 1896 50  0000 L CNN
+F 1 "22k" H 2070 1805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1930 1850 50  0001 C CNN
+F 3 "~" H 2000 1850 50  0001 C CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C201
+U 1 1 61B53C44
+P 2000 1350
+F 0 "C201" H 2118 1396 50  0000 L CNN
+F 1 "1u" H 2118 1305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2038 1200 50  0001 C CNN
+F 3 "~" H 2000 1350 50  0001 C CNN
+	1    2000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0201
+U 1 1 61B54320
+P 2000 1000
+F 0 "#PWR0201" H 2000 850 50  0001 C CNN
+F 1 "+5V" H 2015 1173 50  0000 C CNN
+F 2 "" H 2000 1000 50  0001 C CNN
+F 3 "" H 2000 1000 50  0001 C CNN
+	1    2000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 61B546EC
+P 2000 2650
+F 0 "#PWR0202" H 2000 2400 50  0001 C CNN
+F 1 "GND" H 2005 2477 50  0000 C CNN
+F 2 "" H 2000 2650 50  0001 C CNN
+F 3 "" H 2000 2650 50  0001 C CNN
+	1    2000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1000 2000 1100
+Wire Wire Line
+	2000 1500 2000 1600
+Wire Wire Line
+	2000 2000 2000 2100
+Wire Wire Line
+	2000 2500 2000 2650
+$Comp
+L Switch:SW_Push SW201
+U 1 1 61B57C55
+P 1400 1600
+F 0 "SW201" V 1354 1748 50  0000 L CNN
+F 1 "SW_Push" V 1445 1748 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 1400 1800 50  0001 C CNN
+F 3 "~" H 1400 1800 50  0001 C CNN
+	1    1400 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1800 1400 2100
+Wire Wire Line
+	1400 2100 2000 2100
+Connection ~ 2000 2100
+Wire Wire Line
+	2000 2100 2000 2200
+Wire Wire Line
+	1400 1400 1400 1100
+Wire Wire Line
+	1400 1100 2000 1100
+Connection ~ 2000 1100
+Wire Wire Line
+	2000 1100 2000 1200
+Text HLabel 2900 1600 2    50   Output ~ 0
+DATA
+Wire Wire Line
+	2000 1600 2400 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 2000 1700
+$Comp
+L Transistor_BJT:2N3904 Q201
+U 1 1 61B59EAB
+P 3450 2400
+F 0 "Q201" H 3640 2446 50  0000 L CNN
+F 1 "2N3904" H 3640 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3650 2325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3450 2400 50  0001 L CNN
+	1    3450 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1600 2400 2400
+Wire Wire Line
+	2400 2400 3250 2400
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1600 2900 1600
+$Comp
+L power:GND #PWR0204
+U 1 1 61B5B2C8
+P 3550 2950
+F 0 "#PWR0204" H 3550 2700 50  0001 C CNN
+F 1 "GND" H 3555 2777 50  0000 C CNN
+F 2 "" H 3550 2950 50  0001 C CNN
+F 3 "" H 3550 2950 50  0001 C CNN
+	1    3550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2600 3550 2950
+$Comp
+L Device:R R203
+U 1 1 61B5BEE6
+P 3550 1850
+F 0 "R203" H 3620 1896 50  0000 L CNN
+F 1 "2k2" H 3620 1805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 1850 50  0001 C CNN
+F 3 "~" H 3550 1850 50  0001 C CNN
+	1    3550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D201
+U 1 1 61B5C33C
+P 3550 1350
+F 0 "D201" V 3589 1232 50  0000 R CNN
+F 1 "LED" V 3498 1232 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3550 1350 50  0001 C CNN
+F 3 "~" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0203
+U 1 1 61B5CCD1
+P 3550 950
+F 0 "#PWR0203" H 3550 800 50  0001 C CNN
+F 1 "+5V" H 3565 1123 50  0000 C CNN
+F 2 "" H 3550 950 50  0001 C CNN
+F 3 "" H 3550 950 50  0001 C CNN
+	1    3550 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 950  3550 1200
+Wire Wire Line
+	3550 1500 3550 1700
+Wire Wire Line
+	3550 2000 3550 2200
+$EndSCHEMATC
