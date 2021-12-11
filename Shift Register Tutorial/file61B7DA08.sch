@@ -95,8 +95,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3950 2850 50  0001 L 
 	1    3950 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2900 2850 3750 2850
 $Comp
 L power:GND #PWR?
 U 1 1 61B80A3E
@@ -163,16 +161,9 @@ Wire Wire Line
 	2500 2450 2500 2550
 Wire Wire Line
 	2500 1450 2500 1650
-Wire Wire Line
-	2500 2550 2900 2550
 Connection ~ 2500 2550
 Wire Wire Line
 	2500 2550 2500 2650
-Wire Wire Line
-	2900 2850 2900 2550
-Connection ~ 2900 2550
-Wire Wire Line
-	2900 2550 3100 2550
 Wire Wire Line
 	1800 2050 2500 2050
 Connection ~ 2500 2050
@@ -200,4 +191,6 @@ F 3 "~" H 1800 2700 50  0001 C CNN
 	1    1800 2500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2500 2550 3100 2550
 $EndSCHEMATC

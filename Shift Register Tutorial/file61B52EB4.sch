@@ -103,8 +103,6 @@ Wire Wire Line
 	2000 1100 2000 1200
 Text HLabel 2900 1600 2    50   Output ~ 0
 DATA
-Wire Wire Line
-	2000 1600 2400 1600
 Connection ~ 2000 1600
 Wire Wire Line
 	2000 1600 2000 1700
@@ -119,13 +117,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3450 2400 50  0001 L 
 	1    3450 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 1600 2400 2400
-Wire Wire Line
-	2400 2400 3250 2400
-Connection ~ 2400 1600
-Wire Wire Line
-	2400 1600 2900 1600
 $Comp
 L power:GND #PWR0204
 U 1 1 61B5B2C8
@@ -178,4 +169,6 @@ Wire Wire Line
 	3550 1500 3550 1700
 Wire Wire Line
 	3550 2000 3550 2200
+Wire Wire Line
+	2000 1600 2900 1600
 $EndSCHEMATC

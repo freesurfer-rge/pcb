@@ -115,8 +115,6 @@ Wire Wire Line
 	2650 1450 2650 1550
 Text HLabel 3550 1950 2    50   Output ~ 0
 CLOCK
-Wire Wire Line
-	2650 1950 3050 1950
 Connection ~ 2650 1950
 Wire Wire Line
 	2650 1950 2650 2050
@@ -133,13 +131,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4100 2750 50  0001 L 
 	1    4100 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 1950 3050 2750
-Wire Wire Line
-	3050 2750 3900 2750
-Connection ~ 3050 1950
-Wire Wire Line
-	3050 1950 3550 1950
 $Comp
 L power:GND #PWR?
 U 1 1 61B6A343
@@ -200,4 +191,6 @@ Wire Wire Line
 	4200 1850 4200 2050
 Wire Wire Line
 	4200 2350 4200 2550
+Wire Wire Line
+	2650 1950 3550 1950
 $EndSCHEMATC
