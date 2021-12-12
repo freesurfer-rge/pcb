@@ -508,7 +508,7 @@ AOut
 Text Label 4000 5450 2    50   ~ 0
 DOut
 Text Label 4000 5550 2    50   ~ 0
-LatchOut
+~OEOut
 Text Label 4000 5150 2    50   ~ 0
 COut
 Wire Wire Line
@@ -713,7 +713,7 @@ Wire Wire Line
 Text Label 4000 5750 2    50   ~ 0
 CLKOut
 Text Label 4000 5650 2    50   ~ 0
-~OEOut
+LatchOut
 NoConn ~ 4450 5050
 $Comp
 L power:GND #PWR0101
