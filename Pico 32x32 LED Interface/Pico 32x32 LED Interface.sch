@@ -370,7 +370,7 @@ U 1 1 619AC28B
 P 3850 4500
 F 0 "C2" V 3598 4500 50  0000 C CNN
 F 1 "100n" V 3689 4500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3888 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3888 4350 50  0001 C CNN
 F 3 "~" H 3850 4500 50  0001 C CNN
 F 4 "C1525" H 3850 4500 50  0001 C CNN "LCSC"
 	1    3850 4500
@@ -382,7 +382,7 @@ U 1 1 619AC292
 P 5900 4500
 F 0 "C4" V 5648 4500 50  0000 C CNN
 F 1 "100n" V 5739 4500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5938 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5938 4350 50  0001 C CNN
 F 3 "~" H 5900 4500 50  0001 C CNN
 F 4 "C1525" H 5900 4500 50  0001 C CNN "LCSC"
 	1    5900 4500
@@ -460,88 +460,36 @@ Wire Wire Line
 	6500 2900 6500 3850
 Wire Wire Line
 	6500 3850 7750 3850
-Wire Wire Line
-	5350 3000 6400 3000
-Wire Wire Line
-	6400 3000 6400 3950
-Wire Wire Line
-	6400 3950 7750 3950
 Text Label 3900 2400 2    50   ~ 0
-CLKOut
+R1Out
 Wire Wire Line
 	3900 2400 4450 2400
 Wire Wire Line
-	5350 5150 6850 5150
-Wire Wire Line
-	6850 5150 6850 4150
-Wire Wire Line
 	6850 4150 7750 4150
 Wire Wire Line
-	5350 5250 6950 5250
-Wire Wire Line
-	6950 5250 6950 4250
-Wire Wire Line
 	6950 4250 7750 4250
-Wire Wire Line
-	5350 5350 7050 5350
-Wire Wire Line
-	7050 5350 7050 4350
 Wire Wire Line
 	7050 4350 7750 4350
 Wire Wire Line
 	7750 4450 7150 4450
 Wire Wire Line
-	7150 4450 7150 5450
-Wire Wire Line
-	7150 5450 5350 5450
-Wire Wire Line
-	5350 5550 7250 5550
-Wire Wire Line
-	7250 5550 7250 4550
-Wire Wire Line
 	7250 4550 7750 4550
-$Comp
-L power:GND #PWR0101
-U 1 1 619DC3E4
-P 5550 5900
-F 0 "#PWR0101" H 5550 5650 50  0001 C CNN
-F 1 "GND" H 5555 5727 50  0000 C CNN
-F 2 "" H 5550 5900 50  0001 C CNN
-F 3 "" H 5550 5900 50  0001 C CNN
-	1    5550 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 5650 5550 5650
-Wire Wire Line
-	5550 5650 5550 5750
-Connection ~ 5550 5750
-Wire Wire Line
-	5550 5750 5550 5900
-Wire Wire Line
-	5350 5750 5550 5750
 Text Label 3900 2500 2    50   ~ 0
-LatchOut
+R2Out
 Wire Wire Line
 	3900 2500 4450 2500
 Text Label 3900 2600 2    50   ~ 0
-B2Out
+B1Out
 Wire Wire Line
 	3900 2600 4450 2600
 Text Label 3900 2700 2    50   ~ 0
-R2Out
+B2Out
 Text Label 3900 2800 2    50   ~ 0
-B1Out
+G1Out
 Wire Wire Line
 	3900 2700 4450 2700
 Wire Wire Line
 	3900 2800 4450 2800
-Wire Wire Line
-	6300 3100 6300 4050
-Wire Wire Line
-	6300 4050 7750 4050
-Wire Wire Line
-	5350 3100 6300 3100
 Wire Wire Line
 	5350 5050 6200 5050
 Wire Wire Line
@@ -550,20 +498,9 @@ Connection ~ 6200 4500
 Wire Wire Line
 	6200 4500 6350 4500
 Text Label 3900 2900 2    50   ~ 0
-R1Out
-Text Label 3900 3000 2    50   ~ 0
-G1Out
-Text Label 3900 3100 2    50   ~ 0
 G2Out
 Wire Wire Line
 	3900 2900 4450 2900
-Wire Wire Line
-	3900 3000 4450 3000
-Wire Wire Line
-	3900 3100 4450 3100
-NoConn ~ 4450 5650
-NoConn ~ 4450 5750
-NoConn ~ 4450 5050
 Text Label 4000 5250 2    50   ~ 0
 BOut
 Text Label 4000 5350 2    50   ~ 0
@@ -571,9 +508,9 @@ AOut
 Text Label 4000 5450 2    50   ~ 0
 DOut
 Text Label 4000 5550 2    50   ~ 0
-COut
+CLKOut
 Text Label 4000 5150 2    50   ~ 0
-~OEOut
+COut
 Wire Wire Line
 	4000 5150 4450 5150
 Wire Wire Line
@@ -735,4 +672,47 @@ $EndComp
 Connection ~ 8950 2600
 Wire Wire Line
 	8950 2600 9100 2600
+NoConn ~ 4450 3000
+NoConn ~ 4450 3100
+Wire Wire Line
+	7750 4050 6750 4050
+Wire Wire Line
+	7750 3950 6650 3950
+Wire Wire Line
+	6650 3950 6650 5150
+Wire Wire Line
+	6650 5150 5350 5150
+Wire Wire Line
+	6750 4050 6750 5250
+Wire Wire Line
+	6750 5250 5350 5250
+Wire Wire Line
+	6850 4150 6850 5350
+Wire Wire Line
+	6850 5350 5350 5350
+Wire Wire Line
+	6950 4250 6950 5450
+Wire Wire Line
+	6950 5450 5350 5450
+Wire Wire Line
+	7050 4350 7050 5550
+Wire Wire Line
+	7050 5550 5350 5550
+Wire Wire Line
+	7150 4450 7150 5650
+Wire Wire Line
+	7150 5650 5350 5650
+Wire Wire Line
+	7250 4550 7250 5750
+Wire Wire Line
+	7250 5750 5350 5750
+Wire Wire Line
+	4450 5650 4000 5650
+Wire Wire Line
+	4450 5750 4000 5750
+Text Label 4000 5750 2    50   ~ 0
+~OEOut
+Text Label 4000 5650 2    50   ~ 0
+LatchOut
+NoConn ~ 4450 5050
 $EndSCHEMATC
