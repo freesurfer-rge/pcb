@@ -508,7 +508,7 @@ AOut
 Text Label 4000 5450 2    50   ~ 0
 DOut
 Text Label 4000 5550 2    50   ~ 0
-CLKOut
+LatchOut
 Text Label 4000 5150 2    50   ~ 0
 COut
 Wire Wire Line
@@ -711,8 +711,28 @@ Wire Wire Line
 Wire Wire Line
 	4450 5750 4000 5750
 Text Label 4000 5750 2    50   ~ 0
-~OEOut
+CLKOut
 Text Label 4000 5650 2    50   ~ 0
-LatchOut
+~OEOut
 NoConn ~ 4450 5050
+$Comp
+L power:GND #PWR0101
+U 1 1 61BDDFEA
+P 5550 3350
+F 0 "#PWR0101" H 5550 3100 50  0001 C CNN
+F 1 "GND" H 5555 3177 50  0000 C CNN
+F 2 "" H 5550 3350 50  0001 C CNN
+F 3 "" H 5550 3350 50  0001 C CNN
+	1    5550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3000 5550 3000
+Wire Wire Line
+	5550 3000 5550 3100
+Wire Wire Line
+	5350 3100 5550 3100
+Connection ~ 5550 3100
+Wire Wire Line
+	5550 3100 5550 3350
 $EndSCHEMATC
