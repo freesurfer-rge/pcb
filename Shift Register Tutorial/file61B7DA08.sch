@@ -24,7 +24,7 @@ F 1 "22k" H 2570 2255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2430 2300 50  0001 C CNN
 F 3 "~" H 2500 2300 50  0001 C CNN
 	1    2500 2300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR?
