@@ -436,12 +436,12 @@
       "Input Selectors"
     ],
     [
-      "1ad09c05-369c-4af2-b399-726f0d2e32e5",
-      "NOT Gates"
-    ],
-    [
       "8341dbaa-0be3-4d73-a431-9b2e2f7ed4e7",
       "Decoder"
+    ],
+    [
+      "873eee0e-8c95-42b4-854b-83e5f26d3cf0",
+      "Output"
     ]
   ],
   "text_variables": {}
