@@ -1070,7 +1070,13 @@
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
     (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/f1d0e682-c3b0-48ff-800c-ae4c05fb7c59"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0129") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/a509a93b-89f8-406d-8c6e-4cb9c4fd27ff"
+      (reference "#U0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/63be3227-0a9b-462a-8791-8e16c30ba050"
+      (reference "#U0102") (unit 1) (value "+5V") (footprint "")
     )
     (path "/6805fa98-1af3-400d-8ee1-942ec0bda00d"
       (reference "C101") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
@@ -1088,10 +1094,10 @@
       (reference "C501") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/41a57fed-b183-47c9-9866-3cea0d6f64a1"
-      (reference "C?") (unit 1) (value "10nF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
+      (reference "C601") (unit 1) (value "10nF") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/f9630321-33ef-4723-8a9f-39985125b716"
-      (reference "C?") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+      (reference "C602") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
     )
     (path "/9dc7180d-0fb6-462e-a6b3-ff1204ad5b42/fa856644-8a5c-4b6a-af5b-26a730f71c3f"
       (reference "D201") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
@@ -1151,58 +1157,52 @@
       (reference "R502") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/055a220e-fa95-4eac-85b8-aeeb1345565a"
-      (reference "R?") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R601") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/cf5d25ee-c8ff-4b44-8550-332a25717421"
-      (reference "R?") (unit 1) (value "1M") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R602") (unit 1) (value "1M") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/c489bb15-165b-43a6-94b6-49adb8c893ed"
+      (reference "SW601") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm")
     )
     (path "/9dc7180d-0fb6-462e-a6b3-ff1204ad5b42/f693bfaf-70f9-4542-8d41-0ba87a0a8d8c"
       (reference "U201") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/9dc7180d-0fb6-462e-a6b3-ff1204ad5b42/af29e3e2-bec5-4ec8-ae17-86479bb7af3c"
-      (reference "U201") (unit 2) (value "74HC74") (footprint "")
+      (reference "U201") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/9dc7180d-0fb6-462e-a6b3-ff1204ad5b42/564014bc-c58c-44ef-99c7-7c5d72c2b9d4"
-      (reference "U201") (unit 3) (value "74HC74") (footprint "")
+      (reference "U201") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/3e47a630-a017-49e9-b090-0ddc390d5ca9/f693bfaf-70f9-4542-8d41-0ba87a0a8d8c"
       (reference "U301") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/3e47a630-a017-49e9-b090-0ddc390d5ca9/af29e3e2-bec5-4ec8-ae17-86479bb7af3c"
-      (reference "U301") (unit 2) (value "74HC74") (footprint "")
+      (reference "U301") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/3e47a630-a017-49e9-b090-0ddc390d5ca9/564014bc-c58c-44ef-99c7-7c5d72c2b9d4"
-      (reference "U301") (unit 3) (value "74HC74") (footprint "")
+      (reference "U301") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/1776560d-d10e-49df-958c-2ec91c20f090/f693bfaf-70f9-4542-8d41-0ba87a0a8d8c"
       (reference "U401") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/1776560d-d10e-49df-958c-2ec91c20f090/af29e3e2-bec5-4ec8-ae17-86479bb7af3c"
-      (reference "U401") (unit 2) (value "74HC74") (footprint "")
+      (reference "U401") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/1776560d-d10e-49df-958c-2ec91c20f090/564014bc-c58c-44ef-99c7-7c5d72c2b9d4"
-      (reference "U401") (unit 3) (value "74HC74") (footprint "")
+      (reference "U401") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/61a6eaa9-6d31-4a13-9431-a85264c68c90/f693bfaf-70f9-4542-8d41-0ba87a0a8d8c"
       (reference "U501") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/61a6eaa9-6d31-4a13-9431-a85264c68c90/af29e3e2-bec5-4ec8-ae17-86479bb7af3c"
-      (reference "U501") (unit 2) (value "74HC74") (footprint "")
+      (reference "U501") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/61a6eaa9-6d31-4a13-9431-a85264c68c90/564014bc-c58c-44ef-99c7-7c5d72c2b9d4"
-      (reference "U501") (unit 3) (value "74HC74") (footprint "")
-    )
-    (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/63be3227-0a9b-462a-8791-8e16c30ba050"
-      (reference "U?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/a509a93b-89f8-406d-8c6e-4cb9c4fd27ff"
-      (reference "U?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/c489bb15-165b-43a6-94b6-49adb8c893ed"
-      (reference "U?") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm")
+      (reference "U501") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/be64a935-e1ad-4178-8df9-3a3a692146ca/d8b2a887-34fb-4bf2-8587-aaf9dae97ab2"
-      (reference "U?") (unit 1) (value "LM555xM") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
+      (reference "U601") (unit 1) (value "LM555xM") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
   )
 )
