@@ -454,6 +454,10 @@
     [
       "be64a935-e1ad-4178-8df9-3a3a692146ca",
       "Push Button Clock"
+    ],
+    [
+      "02c674ad-784d-45b2-bd86-31dc00da9d70",
+      "Decoder"
     ]
   ],
   "text_variables": {}
