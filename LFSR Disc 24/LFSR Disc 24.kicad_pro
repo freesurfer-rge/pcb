@@ -499,6 +499,14 @@
     [
       "185c8ff9-35f0-40fc-a69e-906adcca186e",
       "LED Output"
+    ],
+    [
+      "0858eb15-3058-4ae4-ac7f-09da1e21540d",
+      "Shift Clock"
+    ],
+    [
+      "76cd073a-97c1-4f51-b028-2b34aeb12b55",
+      "Feedback"
     ]
   ],
   "text_variables": {}
