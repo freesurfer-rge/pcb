@@ -625,7 +625,7 @@
     (property "Value" "LM555xN" (at 119.38 68.834 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 135.89 91.44 0)
+    (property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket" (at 135.89 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm555.pdf" (at 140.97 91.44 0)
