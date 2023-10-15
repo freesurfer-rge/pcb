@@ -1,0 +1,55 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 93db6cfd-8305-4b15-883f-f88c9948b740)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 96.52 63.5) (size 24.13 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 250bf79d-a7ba-4314-b2a8-f80b847a0fbf)
+    (property "Sheetname" "Compare" (at 96.52 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "compare.kicad_sch" (at 96.52 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "A_{1}NANDB_{1}" output (at 120.65 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a306558b-b351-47a5-88b4-f5aa81450d93)
+    )
+    (pin "A_{1}XNORB_{1}" output (at 120.65 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4c0b2547-74a1-4c7f-b7cb-d83443b7f8fe)
+    )
+    (pin "A_{0}NANDB_{0}" output (at 120.65 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ef0bbfd1-da30-43ec-b443-06b2c51e034c)
+    )
+    (pin "A_{0}XNORB_{0}" output (at 120.65 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ac8196a4-0ad3-4d31-875b-d3645293e0b4)
+    )
+    (pin "A[0..1]" input (at 96.52 71.12 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 13618899-30f3-403d-8554-c0a77c1a4398)
+    )
+    (pin "B[0..1]" input (at 96.52 78.74 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 30500b56-dde2-471c-90a6-60cceab204fa)
+    )
+    (instances
+      (project "Two Bit Comparator"
+        (path "/93db6cfd-8305-4b15-883f-f88c9948b740" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
