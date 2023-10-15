@@ -495,6 +495,10 @@
     [
       "250bf79d-a7ba-4314-b2a8-f80b847a0fbf",
       "Compare"
+    ],
+    [
+      "1c675524-fff8-4fbe-bead-b739790bfb0f",
+      "Accumulate and Output"
     ]
   ],
   "text_variables": {}
