@@ -1,0 +1,61 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4b008680-4773-440d-b098-2485504a60d3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 63.5 83.82) (xy 82.55 83.82))
+    (stroke (width 0) (type default))
+    (uuid df3b9d23-d1f6-4a3f-a813-b8ae5e3a1413)
+  )
+
+  (sheet (at 82.55 73.66) (size 20.32 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c0449e1-f7eb-411d-9b87-e1da06789a23)
+    (property "Sheetname" "Counter" (at 82.55 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "counter.kicad_sch" (at 82.55 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CLK" input (at 82.55 83.82 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 68be5e13-517a-49a5-8d5f-9fc9d071a9f1)
+    )
+    (instances
+      (project "Binary Flip Flop Counter"
+        (path "/4b008680-4773-440d-b098-2485504a60d3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 73.66) (size 22.86 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b6699aad-e6d2-45e8-b61a-b2c34f1d2da4)
+    (property "Sheetname" "Push Button Clock" (at 40.64 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Clock.kicad_sch" (at 40.64 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CLOCK" output (at 63.5 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 123e80f5-34c0-4c3a-8a5a-a4f315290fea)
+    )
+    (instances
+      (project "Binary Flip Flop Counter"
+        (path "/4b008680-4773-440d-b098-2485504a60d3" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
