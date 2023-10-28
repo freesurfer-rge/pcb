@@ -1,0 +1,91 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e0c15b14-c82e-4a22-bb70-64dff5905d91)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (bus (pts (xy 116.84 50.8) (xy 139.7 50.8))
+    (stroke (width 0) (type default))
+    (uuid 5491d03a-f83c-45e0-bba0-bf98181fcdce)
+  )
+
+  (wire (pts (xy 59.69 50.8) (xy 69.85 50.8))
+    (stroke (width 0) (type default))
+    (uuid 83aa899f-41bd-4a95-8027-09af49d32e13)
+  )
+
+  (sheet (at 139.7 38.1) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3a6fc5bf-c872-4aff-bae7-a8bf4920bc78)
+    (property "Sheetname" "Output LEDs" (at 139.7 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "leds.kicad_sch" (at 139.7 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Out[0..24]" input (at 139.7 50.8 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c3077a86-ebb4-4cf9-b83c-8f901b45693c)
+    )
+    (instances
+      (project "Chained 4017"
+        (path "/e0c15b14-c82e-4a22-bb70-64dff5905d91" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 38.1) (size 26.67 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5c1d4075-383a-4987-b295-f59944eb2849)
+    (property "Sheetname" "Clock Signal" (at 33.02 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "clocksignal.kicad_sch" (at 33.02 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CLOCK" output (at 59.69 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5abcf5f5-1b66-49a4-bb51-bfdafb887ce7)
+    )
+    (instances
+      (project "Chained 4017"
+        (path "/e0c15b14-c82e-4a22-bb70-64dff5905d91" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 69.85 38.1) (size 46.99 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f8f825e9-e862-42c0-aa5d-974c9b9f01bc)
+    (property "Sheetname" "Triple 4017" (at 69.85 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "triple4017.kicad_sch" (at 69.85 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CLK" input (at 69.85 50.8 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6dcd094a-6e71-4af7-95a2-dce39f6c642f)
+    )
+    (pin "Out[0..24]" output (at 116.84 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 03b81a5e-4d01-458d-ba37-02ee7caf6f29)
+    )
+    (instances
+      (project "Chained 4017"
+        (path "/e0c15b14-c82e-4a22-bb70-64dff5905d91" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
