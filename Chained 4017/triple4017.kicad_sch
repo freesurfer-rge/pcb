@@ -1411,7 +1411,7 @@
     (uuid ff0ce588-ed87-46ab-97d4-95099fd55bdd)
   )
 
-  (label "Out5" (at 48.26 68.58 90) (fields_autoplaced)
+  (label "Out4" (at 48.26 68.58 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 00af730e-e609-4cd6-87b9-c6e4ba826db5)
   )
