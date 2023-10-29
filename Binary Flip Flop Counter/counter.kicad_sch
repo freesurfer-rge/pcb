@@ -866,31 +866,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 81.046 178.9498 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0cec0d76-1706-4b47-b92b-275d5339b0e2)
-    (property "Reference" "#PWR0308" (at 81.046 185.2998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 81.046 184.0298 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 81.046 178.9498 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 81.046 178.9498 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b396eb28-20fe-4032-a2be-ad41b15449ea))
-    (instances
-      (project "Binary Flip Flop Counter"
-        (path "/4b008680-4773-440d-b098-2485504a60d3/0c0449e1-f7eb-411d-9b87-e1da06789a23"
-          (reference "#PWR0308") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "74xx:74HC74") (at 85.09 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15fde3c5-6eb1-4fa4-8b75-6a685e48a9f4)
