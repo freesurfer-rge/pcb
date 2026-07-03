@@ -3500,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
 			(at 41.91 50.8 0)
 			(hide yes)
 			(show_name no)
